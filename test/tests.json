@@ -1,0 +1,10 @@
+{
+    "eng-sat": {
+        "input": "eng-sat-input.txt",
+        "mode": "eng-sat"
+    },
+    "sat-eng": {
+        "input": "sat-eng-input.txt",
+        "mode": "sat-eng"
+    }
+}
