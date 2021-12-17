@@ -10,9 +10,11 @@
   </section-def-cats>
 
   <section-def-attrs>
-    <attr-item tags="sg"/>
-   <attr-item tags="du"/>
-   <attr-item tags="pl"/>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="du"/>
+      <attr-item tags="pl"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
