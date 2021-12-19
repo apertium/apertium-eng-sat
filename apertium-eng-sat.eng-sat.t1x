@@ -4,6 +4,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+	<def-cat n="vrb">
+    <cat-item tags="vblex.*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -15,6 +18,17 @@
       <attr-item tags="du"/>
       <attr-item tags="pl"/>
     </def-attr>
+	
+	<def-attr n="a_verb">
+   <attr-item tags="vblex"/>
+   </def-attr>
+	<def-attr n="temps">
+   <attr-item tags="pri"/>
+   </def-attr>
+   <def-attr n="pers">
+   <attr-item tags="p1"/>
+   </def-attr>
+   
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
@@ -65,6 +79,22 @@
        </lu>
      </out>
    </action>
+   
+   <rule>
+   <pattern>
+     <pattern-item n="vrb"/>
+   </pattern>
+   <action>
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lem"/>
+         <clip pos="1" side="tl" part="a_verb"/>
+         <clip pos="1" side="tl" part="temps"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+   
 </rule>
 	
   </section-rules>

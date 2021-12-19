@@ -97,25 +97,27 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
+	  	       
 	  
-
+	  <e><p><l>Rabi<s n="np"/><s n="ant"/></l><r>ᱨᱚᱵᱤ<s n="np"/><s n="ant"/></r></p></e>
+	  <e><p><l>Sagun<s n="np"/><s n="ant"/></l><r>ᱥᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
+	  <e><p><l>Fagun<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
 	  
-      <e><p><l>house<s n="n"/></l><r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
-	  <e><p><l>Rabi<s n="n"/></l><r>ᱨᱚᱵᱤ<s n="np"/><s n="m"/></r></p></e>
-	  <e><p><l>Sagun<s n="n"/></l><r>ᱥᱟᱹᱜᱩᱱ<s n="np"/><s n="m"/></r></p></e>
-	  <e><p><l>Fagun<s n="n"/></l><r>ᱯᱷᱟᱹᱜᱩᱱ<s n="np"/><s n="m"/></r></p></e>
-	  <e><p><l>Sunya<s n="n"/></l><r>ᱥᱩᱱᱭᱟ<s n="np"/><s n="f"/><s n="m"/></r></p></e>
-	  <e><p><l>Baha<s n="n"/></l><r>ᱵᱟᱦᱟ<s n="np"/><s n="f"/><s n="m"/></r></p></e>
-	  <e><p><l>Murmu<s n="n"/></l><r>ᱢᱩᱨᱢᱩ<s n="np"/><s n="cog"/></r></p></e>
-	  <e><p><l>Kisku<s n="n"/></l><r>ᱠᱤᱥᱠᱩ<s n="np"/><s n="cog"/></r></p></e>
-	  <e><p><l>Hembram<s n="n"/></l><r>ᱦᱮᱸᱢᱵᱽᱨᱚᱢ<s n="np"/><s n="m"/><s n="cog"/></r></p></e>
-	  <e><p><l>Tudu<s n="n"/></l><r>ᱴᱩᱰᱩ<s n="np"/><s n="cog"/></r></p></e>
-	  <e><p><l>India<s n="n"/></l><r>ᱵᱷᱟᱨᱚᱛ<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
-	  <e><p><l>Nepal<s n="n"/></l><r>ᱱᱮᱯᱟᱞ<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
-	  <e><p><l>Bangladesh<s n="n"/></l><r>ᱵᱟᱝᱞᱟᱫᱮᱥ<s n="np"/></r></p></e>
+	  <e><p><l>Sunya<s n="np"/><s n="ant"/></l><r>ᱥᱩᱱᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+	  <e><p><l>Baha<s n="np"/><s n="ant"/></l><r>ᱵᱟᱦᱟ<s n="np"/><s n="ant"/></r></p></e>
+	  
+	  <e><p><l>Murmu<s n="np"/><s n="cog"/></l><r>ᱢᱩᱨᱢᱩ<s n="np"/><s n="cog"/></r></p></e>
+	  <e><p><l>Kisku<s n="np"/><s n="cog"/></l><r>ᱠᱤᱥᱠᱩ<s n="np"/><s n="cog"/></r></p></e>
+	  <e><p><l>Hembram<s n="np"/><s n="cog"/></l><r>ᱦᱮᱸᱢᱵᱽᱨᱚᱢ<s n="np"/><s n="cog"/></r></p></e>
+	  <e><p><l>Tudu<s n="np"/><s n="cog"/></l><r>ᱴᱩᱰᱩ<s n="np"/><s n="cog"/></r></p></e>
+	  	  
+	  <e><p><l>India<s n="np"/><s n="top"/></l><r>ᱵᱷᱟᱨᱚᱛ<s n="np"/><s n="top"/></r></p></e>
+	  <e r="RL"><p><l>India<s n="np"/><s n="top"/></l><r>ᱥᱤᱧᱚᱛ<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Nepal<s n="np"/><s n="top"/></l><r>ᱱᱮᱯᱟᱞ<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bangladesh<s n="np"/><s n="top"/></l><r>ᱵᱟᱝᱞᱟᱫᱮᱥ<s n="np"/><s n="top"/></r></p></e>
 	  
 	  <!-- SECTION: Numerals -->
-
+	
 	<e><p><l>0<s n="num"/></l><r>᱐<s n="num"/></r></p></e>
 	<e><p><l>1<s n="num"/></l><r>᱑<s n="num"/></r></p></e>
 	<e><p><l>2<s n="num"/></l><r>᱒<s n="num"/></r></p></e>
@@ -126,7 +128,15 @@
 	<e><p><l>7<s n="num"/></l><r>᱗<s n="num"/></r></p></e>
 	<e><p><l>8<s n="num"/></l><r>᱘<s n="num"/></r></p></e>
 	<e><p><l>9<s n="num"/></l><r>᱙<s n="num"/></r></p></e>
-	  
+			
+<e><p><l>one<s n="num"/><s n="sg"/></l><r>ᱢᱤᱫ<s n="num"/><s n="sg"/></r></p></e>	
+<e><p><l>two<s n="num"/><s n="pl"/></l><r>ᱵᱟᱨ<s n="num"/><s n="du"/></r></p></e>
+<e><p><l>three<s n="num"/><s n="pl"/></l><r>ᱯᱮ<s n="num"/><s n="pl"/></r></p></e>	
+
+	 <!-- SECTION: Uncategorised Words -->
+<e><p><l>house<s n="n"/></l><r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
+<e><p><l>goat<s n="n"/></l><r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
+<e><p><l>cow<s n="n"/></l><r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
 	
  <!-- SECTION: Punctuation -->
 
