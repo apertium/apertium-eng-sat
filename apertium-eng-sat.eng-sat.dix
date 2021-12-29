@@ -137,7 +137,9 @@
 <e><p><l>house<s n="n"/></l><r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
 <e><p><l>goat<s n="n"/></l><r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
 <e><p><l>cow<s n="n"/></l><r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
-	
+<e><p><l>blue<s n="adj"/></l><r>ᱞᱤᱞ<s n="adj"/></r></p></e>	
+<e><p><l>this<s n="det"/></l><r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>	
+
  <!-- SECTION: Punctuation -->
 
     <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
@@ -156,4 +158,5 @@ Resources:
     https://wiki.apertium.org/wiki/Bilingual_dictionary
     https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
     https://wiki.apertium.org/wiki/List_of_symbols
+	https://wiki.apertium.org/wiki/Chunking:_A_full_example
 -->
