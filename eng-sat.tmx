@@ -20,5 +20,14 @@
         <seg>ᱯᱷᱨᱤ ᱮᱱᱥᱟᱭᱠᱞᱚᱯᱤᱰᱤᱭᱟ</seg>
       </tuv>
     </tu>
+	<tu>
+      <tuv xml:lang="eng">
+        <seg>Hello</seg>
+      </tuv>
+      <tuv xml:lang="sat">
+        <seg>ᱡᱚᱦᱟᱨ</seg>
+      </tuv>
+    </tu>
+	
   </body>
 </tmx>

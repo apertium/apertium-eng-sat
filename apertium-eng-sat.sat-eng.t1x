@@ -5,6 +5,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="ant">
+      <cat-item tags="np.ant.*"/>
+    </def-cat>
     <def-cat n="vblex-stem">
       <cat-item tags="vblex.*.stem"/>
     </def-cat>
@@ -98,6 +101,14 @@
       <cat-item tags="sent"/>
     </def-cat>
 	
+    <def-cat n="coma">
+      <cat-item tags="cm"/>
+    </def-cat>
+    
+    <def-cat n="muchad">
+      <cat-item tags="muc"/>
+    </def-cat>
+
     <def-cat n="adj">
 	<cat-item tags="adj"/>
 	<cat-item tags="adj.*"/>
@@ -254,7 +265,51 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
+    <def-var n="caseFirstWord"/>
+    <def-var n="genere" v="&amp;lt;m&amp;gt;"/>
+    <def-var n="concDet"/>
+    <def-var n="concAdj"/>
+    <def-var n="concPrimero"/>
+    <def-var n="concSegundo"/>
+    <def-var n="concTercero"/>
+    <def-var n="interrogativa"/>
+    <def-var n="exclamativa"/>
+    <def-var n="caseSecondWord"/>
+    <def-var n="lema"/>
+    <def-var n="lema_SV"/>
+    <def-var n="EOS" v="true"/>
+    <def-var n="paraula1"/>
+    <def-var n="SVnegatiu"/>
+    <def-var n="auxiliar"/>
+    <def-var n="adv_adjectiu"/>
+    <def-var n="modAdv"/>
+    <def-var n="tempsv"/>
+    <def-var n="temps_chunk"/>
+    <def-var n="pers_chunk"/>
+    <def-var n="nbr_chunk"/>
+    <def-var n="gen_chunk"/>
+    <def-var n="nom_chunk"/>
+    <def-var n="verbfinal"/>
+    <def-var n="superlatiu1"/>
+    <def-var n="superlatiu2"/>
+    <def-var n="prepo"/>
+    <def-var n="espai"/> 
   </section-def-vars>
+  
+   <section-def-lists> 
+  
+   <def-list n="en_majuscules">
+      <list-item v="Monday"/>
+      <list-item v="Tuesday"/>
+      <list-item v="Wednesday"/>
+      <list-item v="Thursday"/>
+      <list-item v="Friday"/>
+      <list-item v="Saturday"/>
+      <list-item v="Sunday"/>
+ </def-list>
+  
+  </section-def-lists>  
+  
   <section-def-macros>
     <def-macro n="conv_tense1" npar="1">
          <choose>
@@ -382,6 +437,66 @@
 			
          </choose>
          <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+    </def-macro>
+    
+    
+    
+    <def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
+      
+	  <choose>
+	    <when>
+	      <test>
+		<equal> 
+		  <var n="EOS"/>
+		  <lit v="true"/>
+		</equal> 
+	      </test>
+	      <choose>
+		<when>
+		  <test>
+		    <and>
+		       <equal>
+			<clip pos="1" side="sl" part="a_np_acr"/>
+			<lit v=""/>
+		      </equal>
+		      <not>
+			<in>
+			  <clip pos="1" side="tl" part="lem"/>
+			  <list n="en_majuscules"/>
+			</in>
+		      </not> 	      
+		    </and>
+		  </test>
+		  <modify-case>
+		    <clip pos="1" side="tl" part="lem"/>
+		    <lit v="aa"/>
+		  </modify-case>
+		</when>
+	      </choose>
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="Aa"/>
+	      </let>
+	    </when>
+	    <otherwise> 
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="aa"/>
+	      </let>
+	    </otherwise>
+	  </choose>
+<!--	</when>
+	<otherwise>
+	  <let>
+	    <var n="caseFirstWord"/>
+	    <lit v="aa"/>
+	  </let>
+	</otherwise>
+      </choose>-->
+      <let>
+	<var n="EOS"/>
+	<lit v="false"/>
+      </let>
     </def-macro>
 
   </section-def-macros>
@@ -538,23 +653,54 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: nom">
+   	<rule comment="REGLA: NOM">
+<pattern>
+	<pattern-item n="nom"/>
+</pattern>
+<action>
+<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+        <out> 
+	  <chunk name="nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu> 
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>         
+	    </lu>
+	  </chunk>
+	</out>
+</action>
+</rule>
+
+
+<rule comment="REGLA: ANTROPÒNIM">
       <pattern>
-        <pattern-item n="nom"/>
+	<pattern-item n="ant"/>
       </pattern>
       <action>
-        <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="sl" part="a_cas"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="ant" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="1" side="sl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
       </action>
     </rule>
 
@@ -1395,24 +1541,6 @@
               <clip pos="1" side="tl" part="a_pos"/>
               <clip pos="1" side="tl" part="a_deg"/>
               <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: SENT">
-      <pattern>
-        <pattern-item n="sent"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="sent" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SENT"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
@@ -2505,6 +2633,127 @@
         </out>
       </action>
     </rule>	
+
+ <!--################################################################### -->
+    
+    <rule> <!-- REGLA: reset variables-->
+      <pattern>
+	<pattern-item n="sent"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="nombre"/>
+	  <lit-tag v="sg"/>
+	</let>
+	<let>
+	  <var n="genere"/>
+	  <lit-tag v="m"/>
+	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v=";"/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v=":"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>	      
+	    <let>
+	      <var n="EOS"/>
+	      <lit v="true"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk name="punt">
+	    <tags>
+	      <tag><lit-tag v="sent"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>    
+    
+    
+<!--################################################################### -->
+    
+    <rule comment="REGLA: reset variables">
+      <pattern>
+	<pattern-item n="coma"/>
+      </pattern>
+      <action>
+<!--	<let>
+	  <var n="nombre"/>
+	  <lit-tag v="sg"/>
+	</let>
+	<let>
+	  <var n="genere"/>
+	  <lit-tag v="m"/>
+	</let> -->
+        <let>
+	  <var n="EOS"/>
+	  <lit v="false"/>
+	</let>
+	<out>
+	  <chunk name="coma">
+	    <tags>
+	      <tag><lit-tag v="cm"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+  </rule>
+    
+<!--################################################################### -->
+
+ 
+<rule comment="REGLA: ">
+      <pattern>
+	<pattern-item n="muchad"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="EOS"/>
+	  <lit v="false"/>
+	</let>
+	<out>
+	  <chunk name="muchad">
+	    <tags>
+	      <tag><lit-tag v="sent"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="sl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+  </rule>
+
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->
+<!--################################################################### -->    
+     
+       
   </section-rules>
 </transfer>
 

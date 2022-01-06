@@ -12,6 +12,7 @@
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
+	<sdef n="tv"     				c="transitive"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -44,6 +45,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf" 	      c="Masculine / feminine"/> 
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -85,6 +87,7 @@
     <sdef n="num"             c="Numeral"/>
     <sdef n="sent"            c="Sentence end"/>
     <sdef n="cm"              c="Comma"/>
+    <sdef n="muc"             c="Muchad"/>
     <sdef n="apos"            c="Apostrophe"/>
     <sdef n="guio"            c="Dash"/>
     <sdef n="lpar"            c="Left parenthesis"/>
@@ -94,10 +97,14 @@
 
     <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
-  </sdefs>
+    <sdef n="lquest" 	      c="Left question mark"/>
+    <sdef n="web" 	      c="URL address"/>
+    <sdef n="GD" 	      c="Gender to be determined"/>
+    <sdef n="mon" 	      c="Currency / valuta"/>
+  </sdefs>   
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
+      <!-- Define entries within <e> here.  -->
 	  	       
 	  
 <e><p><l>Rabi<s n="np"/><s n="ant"/></l><r>ᱨᱚᱵᱤ<s n="np"/><s n="ant"/></r></p></e>
@@ -2929,18 +2936,45 @@
 <e><p><l>cow<s n="n"/></l><r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
 <e><p><l>blue<s n="adj"/></l><r>ᱞᱤᱞ<s n="adj"/></r></p></e>	
 <e><p><l>this<s n="det"/></l><r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>	
+<e><p><l>flesh<s n="adj"/></l><r>ᱡᱤᱞ<s n="adj"/></r></p></e>	
+<e><p><l>eat<s n="vblex"/></l><r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
+<e><p><l>.<s n="sent"/></l><r>।<s n="sent"/></r></p></e>
+</section>
 
  <!-- SECTION: Punctuation -->
 
-<e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
-<e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
-<e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
-<e><p><l>.<s n="sent"/></l><r>᱾<s n="sent"/></r></p></e>
-<e><p><l>-<s n="guio"/></l><r>ᱼ<s n="guio"/></r></p></e>
-<e><re>[.\?;:!᱾᱿]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-<e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
-</section>
+  <section id="regexp" type="standard">
+    <e><p><l>᱿<s n="guio"/></l><r>᱿<s n="guio"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>–<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e r="LR"><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e r="RL"><p><l></l><r>¿<s n="lquest"/></r></p></e>
+    <e r="RL"><p><l></l><r>¡<s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+
+    <e><!--      <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re>-->
+<re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+    <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>
+    <e><p><l>£</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
+    <e><p><l>$</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
+    <e><p><l>€</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
+    <e><p><l>£</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
+    <e><p><l>$</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
+    <e><p><l>€</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
+    <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[MCDXLVI]+</re><i><s n="num"/><s n="mf"/><s n="sg"/></i></e>
+    <e><re>[$€£]</re><i><s n="mon"/></i></e>
+  </section>
+
+
 </dictionary>
 
 <!--
