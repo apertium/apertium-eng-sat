@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Dictionary:
+	Sections: 2
+	Entries: 2839
+	Sdefs: 82
+	Last processed by: apertium-dixtools fix apertium-eng-sat.eng-sat.dix apertium.dix (later renamed "apertium.dix" to "apertium-eng-sat.eng-sat.dix")
+
+-->
 <dictionary>
-   <!-- Define the alphabet below. -->
   <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZᱚᱛᱜᱝᱞᱟᱠᱡᱢᱣᱤᱥᱦᱧᱨᱩᱪᱫᱬᱭᱮᱯᱰᱱᱲᱳᱴᱵᱶᱷᱸᱹᱻᱽᱼ</alphabet>
-
   <sdefs>
-    <!-- Define symbol definitions within <sdef> here. -->
-    <sdef n="n"               c="Noun"/>
-    <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
-    <sdef n="vbmod"           c="Modal verb"/>
-    <sdef n="vaux"            c="Auxiliary verb"/>
-    <sdef n="vbser"           c="'To be' verb"/>
-    <sdef n="vbhaver"         c="'To have' verb"/>
-	<sdef n="tv"     				c="transitive"/>
-    <sdef n="cnjsub"          c="Subordinating conjunction"/>
-    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
-    <sdef n="cnjadv"          c="Adverbial conjunction"/>
-    <sdef n="pr"              c="Preposition"/>
-    <sdef n="abbr"            c="Abbreviation"/>
-    <sdef n="adv"             c="Adverb"/>
-    <sdef n="ij"              c="Interjection"/>
-    <sdef n="adj"             c="Adjective"/>
-    <sdef n="prn"             c="Pronoun"/>
-
-    <sdef n="attr"            c="Attributive"/>
-    <sdef n="top"             c="Toponym"/>
-    <sdef n="ant"             c="Anthroponym"/>
-    <sdef n="cog"             c="Cognomen"/>
-    <sdef n="org"             c="Organisation"/>
-    <sdef n="al"              c="Altres / misc proper nouns"/>
-
-    <sdef n="pers"            c="Personal pronoun"/>
-    <sdef n="ref"             c="Reflexive pronoun"/>
-    <sdef n="res"             c="Reciprocal pronoun"/>
-
-    <sdef n="det"             c="Determiner"/>
-    <sdef n="pos"             c="Possessive"/>
-
-    <sdef n="p1"              c="1st person"/>
-    <sdef n="p2"              c="2nd person"/>
-    <sdef n="p3"              c="3rd person"/>
-
-    <sdef n="nt"              c="Neuter"/>
-    <sdef n="ut"              c="Utrum"/>
-    <sdef n="f"               c="Feminine"/>
-    <sdef n="m"               c="Masculine"/>
-    <sdef n="mf" 	      c="Masculine / feminine"/> 
-    <sdef n="un"              c="No gender"/>
-
-    <sdef n="sg"              c="Singular"/>
-    <sdef n="du"              c="Dual"/>
-    <sdef n="pl"              c="Plural"/>
-    <sdef n="sp"              c="Singular / plural"/>
-
-    <sdef n="ind"             c="Indefinite"/>
-    <sdef n="def"             c="Definite"/>
-
-    <sdef n="nom"             c="Nominative"/>
-    <sdef n="acc"             c="Accusative"/>
-    <sdef n="gen"             c="Genitive"/>
-
-    <sdef n="dem"             c="Demonstrative"/>
-    <sdef n="itg"             c="Question word / interrogative"/>
-    <sdef n="qnt"             c="Quantifier"/>
-    <sdef n="neg"             c="Negative"/>
-    <sdef n="emph"            c="Emphatic"/>
-
-    <sdef n="inf"             c="Infinitive"/>
-    <sdef n="pres"            c="Present"/>
-    <sdef n="imp"             c="Imperative"/>
-    <sdef n="pret"            c="Preterite"/>
-    <sdef n="pp"              c="Perfect participle"/>
-    <sdef n="pprs"            c="Present participle"/>
-    <sdef n="pasv"            c="Passive"/>
-    <sdef n="actv"            c="Active voice"/>
-
-    <sdef n="sint"            c="Synthetic (of adjectives)"/>
-    <sdef n="pst"             c="Positive"/>
-    <sdef n="comp"            c="Comparative"/>
-    <sdef n="sup"             c="Superlative"/>
-
-    <sdef n="ord"             c="Ordinal"/>
-    <sdef n="acr"             c="Acronym"/>
-    <sdef n="unc"             c="Uncountable"/>
-
-    <sdef n="num"             c="Numeral"/>
-    <sdef n="sent"            c="Sentence end"/>
-    <sdef n="cm"              c="Comma"/>
-    <sdef n="muc"             c="Muchad"/>
-    <sdef n="apos"            c="Apostrophe"/>
-    <sdef n="guio"            c="Dash"/>
-    <sdef n="lpar"            c="Left parenthesis"/>
-    <sdef n="rpar"            c="Right parenthesis"/>
-    <sdef n="lquot"           c="Left quote"/>
-    <sdef n="rquot"           c="Right quote"/>
-
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
-    <sdef n="lquest" 	      c="Left question mark"/>
-    <sdef n="web" 	      c="URL address"/>
-    <sdef n="GD" 	      c="Gender to be determined"/>
-    <sdef n="mon" 	      c="Currency / valuta"/>
-  </sdefs>   
-
-   <section id="main" type="standard">
+    <sdef n="n" 	c="Noun"/> 
+    <sdef n="np" 	c="Proper noun"/> 
+    <sdef n="vblex" 	c="Verb, lexical"/> 
+    <sdef n="vbmod" 	c="Modal verb"/> 
+    <sdef n="vaux" 	c="Auxiliary verb"/> 
+    <sdef n="vbser" 	c="'To be' verb"/> 
+    <sdef n="vbhaver" 	c="'To have' verb"/> 
+    <sdef n="tv" 	c="transitive"/> 
+    <sdef n="cnjsub" 	c="Subordinating conjunction"/> 
+    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
+    <sdef n="cnjadv" 	c="Adverbial conjunction"/> 
+    <sdef n="pr" 	c="Preposition"/> 
+    <sdef n="abbr" 	c="Abbreviation"/> 
+    <sdef n="adv" 	c="Adverb"/> 
+    <sdef n="ij" 	c="Interjection"/> 
+    <sdef n="adj" 	c="Adjective"/> 
+    <sdef n="prn" 	c="Pronoun"/> 
+    <sdef n="attr" 	c="Attributive"/> 
+    <sdef n="top" 	c="Toponym"/> 
+    <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="cog" 	c="Cognomen"/> 
+    <sdef n="org" 	c="Organisation"/> 
+    <sdef n="al" 	c="Altres / misc proper nouns"/> 
+    <sdef n="pers" 	c="Personal pronoun"/> 
+    <sdef n="ref" 	c="Reflexive pronoun"/> 
+    <sdef n="res" 	c="Reciprocal pronoun"/> 
+    <sdef n="det" 	c="Determiner"/> 
+    <sdef n="pos" 	c="Possessive"/> 
+    <sdef n="p1" 	c="1st person"/> 
+    <sdef n="p2" 	c="2nd person"/> 
+    <sdef n="p3" 	c="3rd person"/> 
+    <sdef n="nt" 	c="Neuter"/> 
+    <sdef n="ut" 	c="Utrum"/> 
+    <sdef n="f" 	c="Feminine"/> 
+    <sdef n="m" 	c="Masculine"/> 
+    <sdef n="mf" 	c="Masculine / feminine"/> 
+    <sdef n="un" 	c="No gender"/> 
+    <sdef n="sg" 	c="Singular"/> 
+    <sdef n="du" 	c="Dual"/> 
+    <sdef n="pl" 	c="Plural"/> 
+    <sdef n="sp" 	c="Singular / plural"/> 
+    <sdef n="ind" 	c="Indefinite"/> 
+    <sdef n="def" 	c="Definite"/> 
+    <sdef n="nom" 	c="Nominative"/> 
+    <sdef n="acc" 	c="Accusative"/> 
+    <sdef n="gen" 	c="Genitive"/> 
+    <sdef n="dem" 	c="Demonstrative"/> 
+    <sdef n="itg" 	c="Question word / interrogative"/> 
+    <sdef n="qnt" 	c="Quantifier"/> 
+    <sdef n="neg" 	c="Negative"/> 
+    <sdef n="emph" 	c="Emphatic"/> 
+    <sdef n="inf" 	c="Infinitive"/> 
+    <sdef n="pres" 	c="Present"/> 
+    <sdef n="imp" 	c="Imperative"/> 
+    <sdef n="pret" 	c="Preterite"/> 
+    <sdef n="pp" 	c="Perfect participle"/> 
+    <sdef n="pprs" 	c="Present participle"/> 
+    <sdef n="pasv" 	c="Passive"/> 
+    <sdef n="actv" 	c="Active voice"/> 
+    <sdef n="sint" 	c="Synthetic (of adjectives)"/> 
+    <sdef n="pst" 	c="Positive"/> 
+    <sdef n="comp" 	c="Comparative"/> 
+    <sdef n="sup" 	c="Superlative"/> 
+    <sdef n="ord" 	c="Ordinal"/> 
+    <sdef n="acr" 	c="Acronym"/> 
+    <sdef n="unc" 	c="Uncountable"/> 
+    <sdef n="num" 	c="Numeral"/> 
+    <sdef n="sent" 	c="Sentence end"/> 
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="muc" 	c="Muchad"/> 
+    <sdef n="apos" 	c="Apostrophe"/> 
+    <sdef n="guio" 	c="Dash"/> 
+    <sdef n="lpar" 	c="Left parenthesis"/> 
+    <sdef n="rpar" 	c="Right parenthesis"/> 
+    <sdef n="lquot" 	c="Left quote"/> 
+    <sdef n="rquot" 	c="Right quote"/> 
+    <sdef n="compound-only-L" 	c="May only be the left-side of a compound"/> 
+    <sdef n="compound-R" 	c="May be the right-side of a compound, or a full word"/> 
+    <sdef n="lquest" 	c="Left question mark"/> 
+    <sdef n="web" 	c="URL address"/> 
+    <sdef n="GD" 	c="Gender to be determined"/> 
+    <sdef n="mon" 	c="Currency / valuta"/> 
+  </sdefs>
+  <section id="main" type="standard">
       <!-- Define entries within <e> here.  -->
 	  	       
 	  
-<e><p><l>Rabi<s n="np"/><s n="ant"/></l><r>ᱨᱚᱵᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Sagun<s n="np"/><s n="ant"/></l><r>ᱥᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Fagun<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Aswin<s n="np"/><s n="ant"/></l><r>ᱚᱥᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ashwin<s n="np"/><s n="ant"/></l><r>ᱚᱥᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Rabi<s n="np"/><s n="ant"/></l>        <r>ᱨᱚᱵᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Sagun<s n="np"/><s n="ant"/></l>       <r>ᱥᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fagun<s n="np"/><s n="ant"/></l>       <r>ᱯᱷᱟᱹᱜᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aswin<s n="np"/><s n="ant"/></l>       <r>ᱚᱥᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ashwin<s n="np"/><s n="ant"/></l>      <r>ᱚᱥᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 
 <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>ᱟᱨᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aarón<s n="np"/><s n="ant"/></l><r>ᱟᱨᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -126,14 +116,14 @@
 <e><p><l>Abdón<s n="np"/><s n="ant"/></l><r>ᱟᱵᱰᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abdu<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abdul<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abdul Hamid II<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞ ᱦᱟᱹᱢᱤᱫ ᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abdul<b/>Hamid<b/>II<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞ<b/>ᱦᱟᱹᱢᱤᱫ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abdulla<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abdullah<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟᱦ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abdullah Ahmad Badawi<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟᱦ ᱟᱹᱦᱢᱟᱹᱫ ᱵᱟᱹᱰᱟᱣᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abdullah Gül<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟᱦ ᱜᱩᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abdullah<b/>Ahmad<b/>Badawi<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟᱦ<b/>ᱟᱹᱦᱢᱟᱹᱫ<b/>ᱵᱟᱹᱰᱟᱣᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abdullah<b/>Gül<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱫᱩᱞᱟᱦ<b/>ᱜᱩᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abel<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abélard<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱞᱟᱰ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abelardo<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱞᱟᱨᱰᱚ <s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abelardo<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱞᱟᱨᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abele<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abenamar<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱱᱟᱢᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aberardo<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱮᱨᱟᱨᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -150,15 +140,15 @@
 <e><p><l>Absolon<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱥᱚᱞᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abu<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abuissa<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩᱤᱥᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abu Bakr<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩ ᱵᱟᱹᱠᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Abu Dahdah<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩ ᱫᱟᱦᱫᱟᱦ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abu<b/>Bakr<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩ<b/>ᱵᱟᱹᱠᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Abu<b/>Dahdah<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩ<b/>ᱫᱟᱦᱫᱟᱦ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abud<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩᱫ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Abundio<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱩᱱᱫᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Acacio<s n="np"/><s n="ant"/></l><r>ᱟᱠᱟᱠᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Achille<s n="np"/><s n="ant"/></l><r>ᱟᱹᱠᱷᱤᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Achilles<s n="np"/><s n="ant"/></l><r>ᱟᱹᱠᱷᱤᱠᱮᱥ <s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Achilles<s n="np"/><s n="ant"/></l><r>ᱟᱹᱠᱷᱤᱠᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Acucio<s n="np"/><s n="ant"/></l><r>ᱟᱹᱠᱩᱠᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Adalbert<s n="np"/><s n="ant"/></l><r>ᱟᱹᱰᱟᱞᱵᱟᱹᱨᱴ <s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Adalbert<s n="np"/><s n="ant"/></l><r>ᱟᱹᱰᱟᱞᱵᱟᱹᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Adalberto<s n="np"/><s n="ant"/></l><r>ᱟᱹᱰᱟᱞᱵᱟᱹᱨᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Adalfieri<s n="np"/><s n="ant"/></l><r>ᱟᱹᱫᱟᱹᱞᱯᱷᱤᱭᱮᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Adalino<s n="np"/><s n="ant"/></l><r>ᱟᱰᱚᱞᱤᱱᱳ<s n="np"/><s n="ant"/></r></p></e>
@@ -220,7 +210,7 @@
 <e><p><l>Affonso<s n="np"/><s n="ant"/></l><r>ᱮᱯᱷᱚᱱᱥᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Afendoulis<s n="np"/><s n="ant"/></l><r>ᱮᱯᱷᱮᱱᱰᱚᱣᱞᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Afonso<s n="np"/><s n="ant"/></l><r>ᱮᱯᱷᱚᱱᱥᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Aga Khan<s n="np"/><s n="ant"/></l><r>ᱟᱜᱟ ᱠᱷᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Aga<b/>Khan<s n="np"/><s n="ant"/></l><r>ᱟᱜᱟ<b/>ᱠᱷᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agamemnon<s n="np"/><s n="ant"/></l><r>ᱟᱜᱟᱢᱮᱢᱱᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agamenón<s n="np"/><s n="ant"/></l><r>ᱟᱜᱟᱢᱮᱱᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agapeto<s n="np"/><s n="ant"/></l><r>ᱟᱜᱟᱯᱮᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -234,7 +224,7 @@
 <e><p><l>Agripino<s n="np"/><s n="ant"/></l><r>ᱟᱹᱜᱽᱨᱤᱯᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agustin<s n="np"/><s n="ant"/></l><r>ᱚᱜᱚᱥᱴᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agustín<s n="np"/><s n="ant"/></l><r>ᱚᱜᱚᱥᱴᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Agustín Díaz de Mera García Consuegra<s n="np"/><s n="ant"/></l><r>ᱚᱜᱚᱥᱴᱤᱱ ᱰᱤᱭᱟᱡᱽ ᱰᱮ ᱢᱮᱨᱟ ᱜᱟᱨᱥᱤᱭᱟ ᱠᱚᱱᱥᱩᱮᱜᱽᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Agustín<b/>Díaz<b/>de<b/>Mera<b/>García<b/>Consuegra<s n="np"/><s n="ant"/></l><r>ᱚᱜᱚᱥᱴᱤᱱ<b/>ᱰᱤᱭᱟᱡᱽ<b/>ᱰᱮ<b/>ᱢᱮᱨᱟ<b/>ᱜᱟᱨᱥᱤᱭᱟ<b/>ᱠᱚᱱᱥᱩᱮᱜᱽᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Agusttin<s n="np"/><s n="ant"/></l><r>ᱚᱜᱩᱥᱴᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ahmad<s n="np"/><s n="ant"/></l><r>ᱟᱹᱦᱢᱟᱹᱫ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ahmed<s n="np"/><s n="ant"/></l><r>ᱟᱹᱦᱢᱮᱫ<s n="np"/><s n="ant"/></r></p></e>
@@ -252,11 +242,11 @@
 <e><p><l>Akiro<s n="np"/><s n="ant"/></l><r>ᱟᱹᱠᱤᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Akzam<s n="np"/><s n="ant"/></l><r>ᱟᱠᱡᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Al<s n="np"/><s n="ant"/></l><r>ᱟᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Al Gore<s n="np"/><s n="ant"/></l><r>ᱟᱞ ᱜᱚᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Al<b/>Gore<s n="np"/><s n="ant"/></l><r>ᱟᱞ<b/>ᱜᱚᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aladino<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱫᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alain<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alan<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alan García Pérez<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱱ ᱜᱟᱨᱤᱠᱟ ᱯᱮᱨᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alan<b/>García<b/>Pérez<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱱ<b/>ᱜᱟᱨᱤᱠᱟ<b/>ᱯᱮᱨᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alano<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alaor<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱚᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alarico<s n="np"/><s n="ant"/></l><r>ᱟᱞᱟᱨᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -268,15 +258,15 @@
 <e><p><l>Albaro<s n="np"/><s n="ant"/></l><r>ᱟᱞᱵᱟᱨᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alberico<s n="np"/><s n="ant"/></l><r>ᱟᱞᱵᱮᱨᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Albert<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albert Camus<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱟᱹᱨᱴ ᱠᱟᱢᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albert I of Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ ᱑ ᱚᱯᱷ ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albert II of Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ ᱒ ᱚᱯᱷ ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albert of Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ ᱚᱯᱷ ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albert<b/>Camus<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱟᱹᱨᱴ<b/>ᱠᱟᱢᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albert<b/>I<b/>of<b/>Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ<b/>᱑<b/>ᱚᱯᱷ<b/>ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albert<b/>II<b/>of<b/>Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ<b/>᱒<b/>ᱚᱯᱷ<b/>ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albert<b/>of<b/>Monaco<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ<b/>ᱚᱯᱷ<b/>ᱢᱚᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alberto<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱟᱹᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Albicio<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Albido<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱤᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albin Grau<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱤᱱ ᱜᱽᱨᱟᱣ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Albrecht Dürer<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱨᱮᱠᱴ ᱫᱩᱨᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albin<b/>Grau<s n="np"/><s n="ant"/></l><r>ᱟᱹᱞᱵᱤᱱ<b/>ᱜᱽᱨᱟᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Albrecht<b/>Dürer<s n="np"/><s n="ant"/></l><r>ᱟᱹᱵᱨᱮᱠᱴ<b/>ᱫᱩᱨᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Albus<s n="np"/><s n="ant"/></l><r>ᱟᱞᱵᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alcee<s n="np"/><s n="ant"/></l><r>ᱟᱞᱥᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alceo<s n="np"/><s n="ant"/></l><r>ᱟᱞᱥᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -298,7 +288,7 @@
 <e><p><l>Aleister<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱥᱴᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alejandrino<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱡᱟᱱᱰᱨᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alejandro<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱡᱟᱱᱰᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alejandro Bofill Mas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱡᱟᱱᱰᱨᱚ ᱵᱚᱯᱷᱤᱞ ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alejandro<b/>Bofill<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱡᱟᱱᱰᱨᱚ<b/>ᱵᱚᱯᱷᱤᱞ<b/>ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alejo<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱡᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alek<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aleksandr<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
@@ -311,12 +301,12 @@
 <e><p><l>Álex<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexander<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alexander Grigoryevich Lukashenko<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ ᱜᱽᱨᱤᱜᱚᱨᱮᱣᱤᱪ ᱞᱩᱠᱟᱥᱮᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alexander Lukashenko<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ ᱞᱩᱠᱟᱥᱮᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alexander the Great<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ ᱫᱟᱹ ᱜᱽᱨᱮᱴ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alexander<b/>Grigoryevich<b/>Lukashenko<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ<b/>ᱜᱽᱨᱤᱜᱚᱨᱮᱣᱤᱪ<b/>ᱞᱩᱠᱟᱥᱮᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alexander<b/>Lukashenko<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ<b/>ᱞᱩᱠᱟᱥᱮᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alexander<b/>the<b/>Great<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ<b/>ᱫᱟᱹ<b/>ᱜᱽᱨᱮᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexandr<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexandre<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alexandre Dumas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱨᱮ ᱰᱩᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alexandre<b/>Dumas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱨᱮ<b/>ᱰᱩᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexandro<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱨᱮᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexandros<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱟᱱᱰᱨᱮᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alexei<s n="np"/><s n="ant"/></l><r>ᱟᱞᱮᱠᱥᱤ<s n="np"/><s n="ant"/></r></p></e>
@@ -357,7 +347,7 @@
 <e><p><l>Alor<s n="np"/><s n="ant"/></l><r>ᱟᱞᱚᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alosnos<s n="np"/><s n="ant"/></l><r>ᱟᱞᱚᱥᱱᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alphonse<s n="np"/><s n="ant"/></l><r>ᱟᱞᱯᱷᱚᱱᱥᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Alphonse Mas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱯᱷᱚᱱᱥ ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Alphonse<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱟᱞᱯᱷᱚᱱᱥ<b/>ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alphonso<s n="np"/><s n="ant"/></l><r>ᱟᱞᱯᱷᱚᱱᱥᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alpiniano<s n="np"/><s n="ant"/></l><r>ᱟᱞᱯᱤᱱᱤᱟᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Alrekur<s n="np"/><s n="ant"/></l><r>ᱟᱞᱨᱮᱠᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
@@ -380,7 +370,7 @@
 <e><p><l>Amancio<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱥᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Amandio<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱰᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Amando<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Amano Hiroshi<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱚ ᱦᱤᱨᱚᱥᱤᱢᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Amano<b/>Hiroshi<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱚ<b/>ᱦᱤᱨᱚᱥᱤᱢᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Amanullah<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱱᱩᱞᱟᱦ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Amari<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Amarion<s n="np"/><s n="ant"/></l><r>ᱟᱢᱟᱨᱤᱭᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -424,16 +414,16 @@
 <e><p><l>Andoquio<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱚᱠᱣᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andre<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>André<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Andre Agassi<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ ᱟᱜᱟᱥᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>André Boyer-Mas<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ ᱵᱚᱭᱮᱨᱼᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Andre<b/>Agassi<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ<b/>ᱟᱜᱟᱥᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>André<b/>Boyer-Mas<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮ<b/>ᱵᱚᱭᱮᱨᱼᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andreas<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱭᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andrei<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andres<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andrés<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andreu<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Andreu Fontàs<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ ᱯᱷᱚᱱᱴᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Andreu Mas-Colell<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ ᱢᱟᱥᱼᱠᱚᱞᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Andreu Nin<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ ᱱᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Andreu<b/>Fontàs<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ<b/>ᱯᱷᱚᱱᱴᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Andreu<b/>Mas-Colell<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ<b/>ᱢᱟᱥᱼᱠᱚᱞᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Andreu<b/>Nin<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ<b/>ᱱᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andrew<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andrócies<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱚᱥᱤᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Androlo<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱚᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -441,7 +431,7 @@
 <e><p><l>Andronikos<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱚᱱᱤᱠᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andrzej<s n="np"/><s n="ant"/></l><r>ᱟᱱᱰᱨᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Andy<s n="np"/><s n="ant"/></l><r>ᱮᱱᱰᱭ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ang Lee<s n="np"/><s n="ant"/></l><r>ᱟᱝ ᱞᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Ang<b/>Lee<s n="np"/><s n="ant"/></l><r>ᱟᱝ<b/>ᱞᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Angel<s n="np"/><s n="ant"/></l><r>ᱮᱧᱡᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ángel<s n="np"/><s n="ant"/></l><r>ᱮᱧᱡᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Àngel<s n="np"/><s n="ant"/></l><r>ᱮᱧᱡᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -456,7 +446,7 @@
 <e><p><l>Anís<s n="np"/><s n="ant"/></l><r>ᱟᱱᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Anisio<s n="np"/><s n="ant"/></l><r>ᱟᱱᱤᱥᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Anje<s n="np"/><s n="ant"/></l><r>ᱟᱧᱡᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Anje Duhalde<s n="np"/><s n="ant"/></l><r>ᱟᱧᱡᱮ ᱰᱩᱦᱟᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Anje<b/>Duhalde<s n="np"/><s n="ant"/></l><r>ᱟᱧᱡᱮ<b/>ᱰᱩᱦᱟᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Anolfo<s n="np"/><s n="ant"/></l><r>ᱟᱱᱚᱞᱯᱷᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ansaldo<s n="np"/><s n="ant"/></l><r>ᱟᱱᱥᱟᱞᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ansel<s n="np"/><s n="ant"/></l><r>ᱟᱱᱥᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -477,9 +467,9 @@
 <e><p><l>Anton<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Antón<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Antoni<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Antoni Colom Mas<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ ᱠᱚᱞᱚᱢ ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Antoni Mas Fornés<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ ᱢᱟᱥ ᱯᱷᱚᱨᱱᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Antoni Mas i Borràs<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ ᱢᱟᱥ ᱤ ᱵᱚᱨᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Antoni<b/>Colom<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ<b/>ᱠᱚᱞᱚᱢ<b/>ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Antoni<b/>Mas<b/>Fornés<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ<b/>ᱢᱟᱥ<b/>ᱯᱷᱚᱨᱱᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Antoni<b/>Mas<b/>i<b/>Borràs<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤ<b/>ᱢᱟᱥ<b/>ᱤ<b/>ᱵᱚᱨᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Antonin<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Antoninus<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Antonio<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱚᱱᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -492,7 +482,7 @@
 <e><p><l>Antwan<s n="np"/><s n="ant"/></l><r>ᱟᱱᱴᱣᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Anuar<s n="np"/><s n="ant"/></l><r>ᱟᱹᱱᱩᱣᱟᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Anubis<s n="np"/><s n="ant"/></l><r>ᱟᱹᱱᱩᱵᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Anxo Quintana<s n="np"/><s n="ant"/></l><r>ᱟᱱᱥᱚ ᱠᱣᱤᱱᱴᱟᱱᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Anxo<b/>Quintana<s n="np"/><s n="ant"/></l><r>ᱟᱱᱥᱚ<b/>ᱠᱣᱤᱱᱴᱟᱱᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aousten<s n="np"/><s n="ant"/></l><r>ᱟᱹᱣᱥᱴᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aparicio<s n="np"/><s n="ant"/></l><r>ᱟᱹᱯᱟᱨᱤᱥᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Apeles<s n="np"/><s n="ant"/></l><r>ᱟᱹᱯᱮᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -511,7 +501,7 @@
 <e><p><l>Aram<s n="np"/><s n="ant"/></l><r>ᱟᱨᱟᱢ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aramis<s n="np"/><s n="ant"/></l><r>ᱟᱨᱟᱢᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Araón<s n="np"/><s n="ant"/></l><r>ᱟᱨᱟᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Arcadi Mas i Fontdevila<s n="np"/><s n="ant"/></l><r>ᱟᱨᱟᱠᱟᱰᱤ ᱢᱟᱥ ᱤ ᱯᱷᱚᱱᱴᱰᱮᱣᱤᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Arcadi<b/>Mas<b/>i<b/>Fontdevila<s n="np"/><s n="ant"/></l><r>ᱟᱨᱟᱠᱟᱰᱤ<b/>ᱢᱟᱥ<b/>ᱤ<b/>ᱯᱷᱚᱱᱴᱰᱮᱣᱤᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arcadio<s n="np"/><s n="ant"/></l><r>ᱟᱨᱠᱟᱰᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arcángel<s n="np"/><s n="ant"/></l><r>ᱟᱨᱠᱟᱱᱜᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arcelio<s n="np"/><s n="ant"/></l><r>ᱟᱨᱥᱮᱞᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -560,7 +550,7 @@
 <e><p><l>Armengol<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱮᱱᱜᱚᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Armentario<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱮᱱᱴᱟᱹᱨᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Armín<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱤᱬ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Armindo de Jesus de Sousa Ribeiro<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱤᱱᱰᱚ ᱰᱮ ᱡᱮᱥᱚᱥ ᱰᱮ ᱥᱚᱣᱥᱟ ᱨᱤᱵᱮᱭᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Armindo<b/>de<b/>Jesus<b/>de<b/>Sousa<b/>Ribeiro<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱤᱱᱰᱚ<b/>ᱰᱮ<b/>ᱡᱮᱥᱚᱥ<b/>ᱰᱮ<b/>ᱥᱚᱣᱥᱟ<b/>ᱨᱤᱵᱮᱭᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arminius<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱤᱱᱤᱭᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Armintario<s n="np"/><s n="ant"/></l><r>ᱟᱨᱢᱤᱱᱴᱟᱨᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arnald<s n="np"/><s n="ant"/></l><r>ᱟᱨᱱᱟᱞᱰ<s n="np"/><s n="ant"/></r></p></e>
@@ -593,7 +583,7 @@
 <e><p><l>Artenio<s n="np"/><s n="ant"/></l><r>ᱟᱨᱴᱮᱱᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arthur<s n="np"/><s n="ant"/></l><r>ᱟᱨᱛᱷᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Artur<s n="np"/><s n="ant"/></l><r>ᱟᱨᱛᱷᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Artur Mas i Gavarró<s n="np"/><s n="ant"/></l><r>ᱟᱨᱛᱷᱩᱨ ᱢᱟᱥ ᱤ ᱜᱟᱣᱟᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Artur<b/>Mas<b/>i<b/>Gavarró<s n="np"/><s n="ant"/></l><r>ᱟᱨᱛᱷᱩᱨ<b/>ᱢᱟᱥ<b/>ᱤ<b/>ᱜᱟᱣᱟᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arturo<s n="np"/><s n="ant"/></l><r>ᱟᱨᱛᱩᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arvid<s n="np"/><s n="ant"/></l><r>ᱟᱨᱣᱤᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Arwel<s n="np"/><s n="ant"/></l><r>ᱟᱨᱣᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -673,7 +663,7 @@
 <e><p><l>Axne<s n="np"/><s n="ant"/></l><r>ᱮᱠᱥᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ayax<s n="np"/><s n="ant"/></l><r>ᱟᱭᱟᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ayden<s n="np"/><s n="ant"/></l><r>ᱟᱭᱰᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ayman al-Zawahiri<s n="np"/><s n="ant"/></l><r>ᱟᱭᱢᱮᱱ ᱟᱞᱼᱡᱟᱹᱣᱟᱦᱤᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Ayman<b/>al-Zawahiri<s n="np"/><s n="ant"/></l><r>ᱟᱭᱢᱮᱱ<b/>ᱟᱞᱼᱡᱟᱹᱣᱟᱦᱤᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Aymeric<s n="np"/><s n="ant"/></l><r>ᱟᱭᱢᱮᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ayrton<s n="np"/><s n="ant"/></l><r>ᱟᱭᱨᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ayub<s n="np"/><s n="ant"/></l><r>ᱟᱹᱭᱩᱵ<s n="np"/><s n="ant"/></r></p></e>
@@ -755,22 +745,22 @@
 <e><p><l>Benedetto<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱮᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Benedict<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bénédict<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict I<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict II<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict III<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict IV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱔<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict IX<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱕<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict V<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱖<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict VI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱗<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict VII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱘<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict VIII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱙<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict X<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱐<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XIII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XIV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱔<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱕<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Benedict XVI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ ᱑᱖<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>I<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>II<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>III<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>IV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>IX<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱕<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>V<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱖<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>VI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱗<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>VII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱘<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>VIII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱙<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>X<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱐<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XIII<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XIV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XV<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱕<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Benedict<b/>XVI<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴ<b/>᱑᱖<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Benedicto<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Benedikto<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱰᱤᱠᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Beneoit<s n="np"/><s n="ant"/></l><r>ᱵᱮᱱᱮᱚᱭᱮᱴ<s n="np"/><s n="ant"/></r></p></e>
@@ -797,7 +787,7 @@
 <e><p><l>Bernardo<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱱᱟᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bernart<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱱᱟᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bernat<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱱᱟᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bernat Mas<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱱᱟᱴ ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bernat<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱱᱟᱴ<b/>ᱢᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bernd<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱨᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Berno<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱛᱨᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bert<s n="np"/><s n="ant"/></l><r>ᱵᱮᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
@@ -832,9 +822,9 @@
 <e><p><l>Blaze<s n="np"/><s n="ant"/></l><r>ᱵᱞᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bo<s n="np"/><s n="ant"/></l><r>ᱵᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bob<s n="np"/><s n="ant"/></l><r>ᱵᱚᱵᱽ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bob Hope<s n="np"/><s n="ant"/></l><r>ᱵᱚᱵ ᱦᱚᱯ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bob<b/>Hope<s n="np"/><s n="ant"/></l><r>ᱵᱚᱵ<b/>ᱦᱚᱯ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bobby<s n="np"/><s n="ant"/></l><r>ᱵᱚᱵᱭ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Boi Ruiz i Garcia<s n="np"/><s n="ant"/></l><r>ᱵᱚᱭ ᱨᱩᱭᱡᱽ ᱤ ᱜᱟᱨᱥᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Boi<b/>Ruiz<b/>i<b/>Garcia<s n="np"/><s n="ant"/></l><r>ᱵᱚᱭ<b/>ᱨᱩᱭᱡᱽ<b/>ᱤ<b/>ᱜᱟᱨᱥᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Boleslaus<s n="np"/><s n="ant"/></l><r>ᱵᱚᱞᱮᱥᱞᱟᱣᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bonaventura<s n="np"/><s n="ant"/></l><r>ᱵᱚᱱᱟᱣᱮᱱᱴᱩᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bonaventure<s n="np"/><s n="ant"/></l><r>ᱵᱚᱱᱟᱣᱮᱱᱴᱭᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
@@ -862,7 +852,7 @@
 <e><p><l>Braiden<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱭᱰᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Brais<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱭᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bram<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱢ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bram Stoker<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱢ ᱥᱴᱚᱠᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bram<b/>Stoker<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱢ<b/>ᱥᱴᱚᱠᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Branco<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Branden<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱱᱰᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Brandon<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱟᱱᱰᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -895,7 +885,7 @@
 <e><p><l>Bronislaw<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱚᱱᱤᱥᱞᱟᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Brooks<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bruce<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bruce Springsteen<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱥ ᱥᱯᱨᱤᱝᱥᱴᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bruce<b/>Springsteen<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱥ<b/>ᱥᱯᱨᱤᱝᱥᱴᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Brunno<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bruno<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Brutus<s n="np"/><s n="ant"/></l><r>ᱵᱽᱨᱩᱴᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -907,8 +897,8 @@
 <e><p><l>Bucardo<s n="np"/><s n="ant"/></l><r>ᱵᱩᱠᱟᱨᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Buddha<s n="np"/><s n="ant"/></l><r>ᱵᱩᱫᱷᱟᱹ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Buenaventura<s n="np"/><s n="ant"/></l><r>ᱵᱩᱭᱮᱱᱟᱣᱮᱱᱛᱭᱩᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Buffalo Bill<s n="np"/><s n="ant"/></l><r>ᱵᱩᱯᱷᱟᱞᱚ ᱵᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bugs Bunny<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱜᱥ ᱵᱟᱹᱱᱭ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Buffalo<b/>Bill<s n="np"/><s n="ant"/></l><r>ᱵᱩᱯᱷᱟᱞᱚ<b/>ᱵᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bugs<b/>Bunny<s n="np"/><s n="ant"/></l><r>ᱵᱟᱹᱜᱥ<b/>ᱵᱟᱹᱱᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bulmaro<s n="np"/><s n="ant"/></l><r>ᱵᱩᱞᱢᱟᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Buonfiglio<s n="np"/><s n="ant"/></l><r>ᱵᱩᱣᱮᱱᱯᱷᱤᱜᱽᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Byron<s n="np"/><s n="ant"/></l><r>ᱵᱭᱨᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -961,10 +951,10 @@
 <e><p><l>Carlitos<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱤᱴᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Carlo<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Carlos<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Carlos Casares<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ ᱠᱟᱥᱟᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Carlos María<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Carlos Martel<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ ᱢᱟᱨᱴᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Carlos Mas Samora<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ ᱢᱟᱸᱥ ᱥᱟᱢᱚᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Carlos<b/>Casares<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ<b/>ᱠᱟᱥᱟᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Carlos<b/>María<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ<b/>ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Carlos<b/>Martel<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ<b/>ᱢᱟᱨᱴᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Carlos<b/>Mas<b/>Samora<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱚᱥ<b/>ᱢᱟᱸᱥ<b/>ᱥᱟᱢᱚᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Carlton<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱞᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Carmelo<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱢᱮᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Carson<s n="np"/><s n="ant"/></l><r>ᱠᱟᱨᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -1040,7 +1030,7 @@
 <e><p><l>Cheraí<s n="np"/><s n="ant"/></l><r>ᱪᱷᱮᱨᱟᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Chevi<s n="np"/><s n="ant"/></l><r>ᱪᱷᱮᱣᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Chiang<s n="np"/><s n="ant"/></l><r>ᱪᱷᱤᱟᱱᱜᱽ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Chiang Kai-shek<s n="np"/><s n="ant"/></l><r>ᱪᱷᱤᱟᱱᱜᱽ ᱠᱟᱤ-ᱥᱮᱠᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Chiang<b/>Kai-shek<s n="np"/><s n="ant"/></l><r>ᱪᱷᱤᱟᱱᱜᱽ<b/>ᱠᱟᱤ-ᱥᱮᱠᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Chico<s n="np"/><s n="ant"/></l><r>ᱪᱷᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Chio<s n="np"/><s n="ant"/></l><r>ᱪᱷᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Chistian<s n="np"/><s n="ant"/></l><r>ᱠᱷᱨᱤᱥᱴᱤᱭᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -1091,20 +1081,20 @@
 <e><p><l>Clemencio<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱥᱤᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Clement<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Clément<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement I<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement II<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement III<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement IV<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱔<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement IX<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱙<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement V<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱕<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement VI<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱖<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement VII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱗<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement VIII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱘<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement X<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑᱐<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement XI<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement XII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement XIII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Clement XIV<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ ᱑᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>I<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>II<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>III<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>IV<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>IX<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱙<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>V<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱕<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>VI<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱖<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>VII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱗<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>VIII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱘<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>X<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑᱐<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>XI<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>XII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>XIII<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Clement<b/>XIV<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴ<b/>᱑᱔<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Clemente<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Clementino<s n="np"/><s n="ant"/></l><r>ᱠᱞᱮᱢᱮᱱᱴᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Cleofás<s n="np"/><s n="ant"/></l><r>ᱠᱞᱤᱭᱳᱯᱷᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -1180,7 +1170,7 @@
 <e><p><l>Costantino<s n="np"/><s n="ant"/></l><r>ᱠᱚᱥᱴᱟᱱᱴᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Costanzo<s n="np"/><s n="ant"/></l><r>ᱠᱚᱥᱴᱟᱱᱡᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Costas<s n="np"/><s n="ant"/></l><r>ᱠᱚᱥᱴᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Count Dracula<s n="np"/><s n="ant"/></l><r>ᱠᱟᱩᱸᱴ ᱰᱨᱟᱠᱩᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Count<b/>Dracula<s n="np"/><s n="ant"/></l><r>ᱠᱟᱩᱸᱴ<b/>ᱰᱨᱟᱠᱩᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Craig<s n="np"/><s n="ant"/></l><r>ᱠᱨᱟᱭᱜᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Crecenio<s n="np"/><s n="ant"/></l><r>ᱠᱨᱤᱥᱤᱱᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Crescencio<s n="np"/><s n="ant"/></l><r>ᱠᱨᱮᱥᱮᱱᱥᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1232,7 +1222,7 @@
 <e><p><l>Daian<s n="np"/><s n="ant"/></l><r>ᱰᱟᱭᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dakota<s n="np"/><s n="ant"/></l><r>ᱰᱟᱠᱚᱴᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dalai<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱟᱭ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Dalai Lama<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱟᱭ ᱞᱟᱢᱟᱸ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Dalai<b/>Lama<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱟᱭ<b/>ᱞᱟᱢᱟᱸ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dale<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dallas<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dallin<s n="np"/><s n="ant"/></l><r>ᱰᱟᱞᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
@@ -1258,7 +1248,7 @@
 <e><p><l>Daner<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dangelo<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱜᱮᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Daniel<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Daniel Ortega<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱮᱞ ᱚᱨᱴᱮᱜᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Daniel<b/>Ortega<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱮᱞ<b/>ᱚᱨᱴᱮᱜᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Daniele<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱮᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Danilo<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Danimiro<s n="np"/><s n="ant"/></l><r>ᱰᱟᱱᱤᱢᱤᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1288,7 +1278,7 @@
 <e><p><l>Daryl<s n="np"/><s n="ant"/></l><r>ᱰᱟᱨᱭᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dashawn<s n="np"/><s n="ant"/></l><r>ᱰᱟᱥᱟᱣᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dave<s n="np"/><s n="ant"/></l><r>ᱰᱮᱣ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Dave Brown<s n="np"/><s n="ant"/></l><r>ᱰᱮᱣ ᱵᱽᱨᱟᱣᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Dave<b/>Brown<s n="np"/><s n="ant"/></l><r>ᱰᱮᱣ<b/>ᱵᱽᱨᱟᱣᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Davel<s n="np"/><s n="ant"/></l><r>ᱰᱟᱵᱷᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>David<s n="np"/><s n="ant"/></l><r>ᱰᱮᱣᱤᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Davide<s n="np"/><s n="ant"/></l><r>ᱰᱟᱣᱤᱰᱮ<s n="np"/><s n="ant"/></r></p></e>
@@ -1303,7 +1293,7 @@
 <e><p><l>Dayan<s n="np"/><s n="ant"/></l><r>ᱰᱟᱭᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Daymán<s n="np"/><s n="ant"/></l><r>ᱰᱟᱭᱮᱢᱟᱹᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dayton<s n="np"/><s n="ant"/></l><r>ᱰᱟᱭᱮᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>de Lourdes<s n="np"/><s n="ant"/></l><r>ᱰᱮ ᱞᱚᱣᱨᱰᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>de<b/>Lourdes<s n="np"/><s n="ant"/></l><r>ᱰᱮ<b/>ᱞᱚᱣᱨᱰᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Dean<s n="np"/><s n="ant"/></l><r>ᱰᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Deandre<s n="np"/><s n="ant"/></l><r>ᱰᱤᱱᱰᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Deangelo<s n="np"/><s n="ant"/></l><r>ᱰᱤᱱᱜᱮᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1518,8 +1508,8 @@
 <e><p><l>Einir<s n="np"/><s n="ant"/></l><r>ᱮᱭᱱᱤᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Eiríkur<s n="np"/><s n="ant"/></l><r>ᱮᱭᱨᱤᱠᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Eitel<s n="np"/><s n="ant"/></l><r>ᱮᱭᱴᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>El Chapo<s n="np"/><s n="ant"/></l><r>ᱮᱞ ᱠᱷᱟᱹᱯᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>El Greco<s n="np"/><s n="ant"/></l><r>ᱮᱞ ᱜᱽᱨᱮᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>El<b/>Chapo<s n="np"/><s n="ant"/></l><r>ᱮᱞ<b/>ᱠᱷᱟᱹᱯᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>El<b/>Greco<s n="np"/><s n="ant"/></l><r>ᱮᱞ<b/>ᱜᱽᱨᱮᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Eladio<s n="np"/><s n="ant"/></l><r>ᱮᱞᱟᱹᱰᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Elario<s n="np"/><s n="ant"/></l><r>ᱮᱞᱟᱹᱨᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Elbio<s n="np"/><s n="ant"/></l><r>ᱮᱞᱵᱤᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1609,7 +1599,7 @@
 <e><p><l>Enric<s n="np"/><s n="ant"/></l><r>ᱮᱱᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Enrico<s n="np"/><s n="ant"/></l><r>ᱮᱱᱨᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Enrique<s n="np"/><s n="ant"/></l><r>ᱮᱱᱨᱤᱠᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Enrique Grau<s n="np"/><s n="ant"/></l><r>ᱮᱱᱨᱤᱠᱷ ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Enrique<b/>Grau<s n="np"/><s n="ant"/></l><r>ᱮᱱᱨᱤᱠᱷ<b/>ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Enzio<s n="np"/><s n="ant"/></l><r>ᱮᱱᱡᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Enzo<s n="np"/><s n="ant"/></l><r>ᱮᱱᱡᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ephraim<s n="np"/><s n="ant"/></l><r>ᱮᱯᱷᱟᱨᱟᱭᱤᱢ<s n="np"/><s n="ant"/></r></p></e>
@@ -1632,8 +1622,8 @@
 <e><p><l>Ergasto<s n="np"/><s n="ant"/></l><r>ᱮᱨᱜᱟᱥᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Eric<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Éric<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Eric Raymond<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ ᱨᱟᱭᱢᱚᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Eric S. Raymond<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ ᱥ. ᱨᱟᱭᱢᱚᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Eric<b/>Raymond<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ<b/>ᱨᱟᱭᱢᱚᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Eric<b/>S.<b/>Raymond<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠ<b/>ᱥ.<b/>ᱨᱟᱭᱢᱚᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Erich<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Erick<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Erico<s n="np"/><s n="ant"/></l><r>ᱮᱨᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1790,11 +1780,11 @@
 <e><p><l>Felicísimo<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱞᱤᱠᱤᱥᱤᱢᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Félicité<s n="np"/><s n="ant"/></l><r>ᱯᱮᱞᱤᱥᱤᱴᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Felip<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱞᱤᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Felip Puig i Godes<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱞᱤᱯᱷ ᱯᱩᱭᱤᱜᱽ ᱤ ᱜᱚᱰᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Felip<b/>Puig<b/>i<b/>Godes<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱞᱤᱯᱷ<b/>ᱯᱩᱭᱤᱜᱽ<b/>ᱤ<b/>ᱜᱚᱰᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Felipe<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱞᱤᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Felix<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱞᱤᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Félix<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱞᱤᱠᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Félix María<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱞᱤᱠᱥ ᱢᱟᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Félix<b/>María<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱞᱤᱠᱥ<b/>ᱢᱟᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fenrir<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱱᱨᱤᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferdinand<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱨᱰᱤᱱᱟᱸᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferdinando<s n="np"/><s n="ant"/></l><r>ᱯᱷᱮᱨᱰᱤᱱᱟᱱᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1805,10 +1795,10 @@
 <e><p><l>Fernandez<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱱᱟᱱᱰᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fernando<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱨᱱᱟᱱᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fernándo<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱨᱱᱟᱱᱰᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Fernando Andreu<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱨᱱᱟᱱᱰᱚ ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Fernando<b/>Andreu<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱨᱱᱟᱱᱰᱚ<b/>ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fernão<s n="np"/><s n="ant"/></l><r>ᱯᱷᱟᱹᱨᱱᱟᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferran<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ferran Mascarell i Canalda<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱟᱱ ᱢᱟᱸᱥᱠᱟᱹᱨᱮᱞ ᱤ ᱠᱟᱱᱟᱞᱰᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Ferran<b/>Mascarell<b/>i<b/>Canalda<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱟᱱ<b/>ᱢᱟᱸᱥᱠᱟᱹᱨᱮᱞ<b/>ᱤ<b/>ᱠᱟᱱᱟᱞᱰᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferrand<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱟᱸᱱᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferrant<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱟᱸᱱᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ferreol<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱨᱤᱭᱳᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -1818,7 +1808,7 @@
 <e><p><l>Ffred<s n="np"/><s n="ant"/></l><r>ᱯᱨᱮᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fiacre<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱭᱟᱹᱠᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fidel<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱰᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Fidel Castro<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱰᱮᱞ ᱠᱟᱥᱴᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Fidel<b/>Castro<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱰᱮᱞ<b/>ᱠᱟᱥᱴᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fidelio<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱰᱮᱞᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Fidencio<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱰᱮᱱᱥᱤᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Filadelfo<s n="np"/><s n="ant"/></l><r>ᱯᱷᱤᱞᱟᱰᱮᱞᱯᱷᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -1872,23 +1862,23 @@
 <e><p><l>Fram<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱢ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Franc<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Francesc<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱝᱠ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francesc Joan Mas<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francesc Mas i Ros<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ ᱢᱟᱸᱥ ᱤ ᱨᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francesc Xavier<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ ᱥᱟᱣᱤᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francesc<b/>Joan<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ<b/>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francesc<b/>Mas<b/>i<b/>Ros<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ<b/>ᱢᱟᱸᱥ<b/>ᱤ<b/>ᱨᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francesc<b/>Xavier<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱭᱥᱠ<b/>ᱥᱟᱣᱤᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Francesco<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱮᱥᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Francis<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francis Bacon<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ ᱵᱟᱠᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francis Borgia<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ ᱵᱚᱨᱜᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francis Mas<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francis<b/>Bacon<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ<b/>ᱵᱟᱠᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francis<b/>Borgia<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ<b/>ᱵᱚᱨᱜᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francis<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Francisco<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francisco de Borja<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥᱠᱚ ᱰᱮ ᱵᱚᱨᱡᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Francisco de Paula<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥᱠᱚ ᱰᱮ ᱯᱟᱣᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francisco<b/>de<b/>Borja<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥᱠᱚ<b/>ᱰᱮ<b/>ᱵᱚᱨᱡᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Francisco<b/>de<b/>Paula<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱥᱤᱥᱠᱚ<b/>ᱰᱮ<b/>ᱯᱟᱣᱞᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Franck<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Franco<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>François<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱚᱭᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Frank<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱝᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Frankie<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Frankie Andreu<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱤ ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Frankie<b/>Andreu<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱤ<b/>ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Franklin<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱠᱞᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Frantzisko<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱴᱡᱤᱥᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Franz<s n="np"/><s n="ant"/></l><r>ᱯᱷᱨᱟᱱᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
@@ -1919,7 +1909,7 @@
 <e><p><l>Gabelo<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱮᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gabino<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gabriel<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱽᱨᱤᱭᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Gabriel Mas Arbona<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱽᱨᱤᱭᱮᱞ ᱢᱟᱸᱥ ᱟᱹᱨᱵᱚᱱᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Gabriel<b/>Mas<b/>Arbona<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱽᱨᱤᱭᱮᱞ<b/>ᱢᱟᱸᱥ<b/>ᱟᱹᱨᱵᱚᱱᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gabriele<s n="np"/><s n="ant"/></l><r>ᱜᱟᱵᱽᱨᱤᱭᱮᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gadiel<s n="np"/><s n="ant"/></l><r>ᱜᱟᱰᱤᱭᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gael<s n="np"/><s n="ant"/></l><r>ᱜᱟᱭᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -1987,10 +1977,10 @@
 <e><p><l>Geoffroi<s n="np"/><s n="ant"/></l><r>ᱡᱤᱭᱚᱯᱷᱨᱚᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Georg<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>George<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>George H. W. Bush<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ ᱦ. ᱣ. ᱵᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>George W. Bush<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ ᱣ. ᱵᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>George<b/>H.<b/>W.<b/>Bush<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ<b/>ᱦ.<b/>ᱣ.<b/>ᱵᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>George<b/>W.<b/>Bush<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱽ<b/>ᱣ.<b/>ᱵᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Georges<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱜᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Georges Duhamel<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱮᱥ ᱰᱩᱦᱟᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Georges<b/>Duhamel<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱡᱮᱥ<b/>ᱰᱩᱦᱟᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Georgio<s n="np"/><s n="ant"/></l><r>ᱡᱭᱚᱨᱜᱤᱭᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Geraint<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱟᱭᱮᱸᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gerald<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱟᱞᱰ<s n="np"/><s n="ant"/></r></p></e>
@@ -2013,7 +2003,7 @@
 <e><p><l>Geronimo<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱚᱱᱤᱢᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gerónimo<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱚᱱᱤᱢᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gerry<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱭ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Gerry Adams<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱭ ᱟᱹᱰᱟᱢᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Gerry<b/>Adams<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱭ<b/>ᱟᱹᱰᱟᱢᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gerson<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gervais<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱣᱟᱭᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gervaise<s n="np"/><s n="ant"/></l><r>ᱜᱮᱨᱣᱟᱭᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2089,7 +2079,7 @@
 <e><p><l>Gontrán<s n="np"/><s n="ant"/></l><r>ᱜᱚᱱᱴᱨᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gonzalo<s n="np"/><s n="ant"/></l><r>ᱜᱚᱱᱡᱟᱞᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gordon<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱰᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Gordon Brown<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱰᱚᱱ ᱵᱽᱨᱚᱣᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Gordon<b/>Brown<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱰᱚᱱ<b/>ᱵᱽᱨᱚᱣᱩᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gorgonio<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱜᱚᱱᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gorka<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱠᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Gorlois<s n="np"/><s n="ant"/></l><r>ᱜᱚᱨᱞᱚᱭᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2140,7 +2130,7 @@
 <e><p><l>Guiliano<s n="np"/><s n="ant"/></l><r>ᱜᱩᱭᱞᱤᱭᱟᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Guillaume<s n="np"/><s n="ant"/></l><r>ᱜᱩᱭᱞᱟᱣᱢᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱭᱞᱮᱢ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Guillem Mas<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱤᱞᱮᱢ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Guillem<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱤᱞᱮᱢ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Guillermo<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱤᱞᱮᱨᱢᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Guimel<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱤᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Guiomar<s n="np"/><s n="ant"/></l><r>ᱜᱩᱣᱤᱭᱳᱢᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
@@ -2197,9 +2187,9 @@
 <e><p><l>Harry<s n="np"/><s n="ant"/></l><r>ᱦᱟᱨᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Harvey<s n="np"/><s n="ant"/></l><r>ᱦᱟᱨᱣᱮᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hasan<s n="np"/><s n="ant"/></l><r>ᱦᱟᱥᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Hashimoto Tetsuya<s n="np"/><s n="ant"/></l><r>ᱦᱟᱥᱷᱤᱢᱚᱴᱚ ᱴᱮᱴᱷᱥᱩᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Hashimoto<b/>Tetsuya<s n="np"/><s n="ant"/></l><r>ᱦᱟᱥᱷᱤᱢᱚᱴᱚ<b/>ᱴᱮᱴᱷᱥᱩᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hassan<s n="np"/><s n="ant"/></l><r>ᱦᱟᱹᱥᱟᱹᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Hatem Ben Arfa<s n="np"/><s n="ant"/></l><r>ᱦᱟᱴᱮᱢ ᱵᱤᱱ ᱟᱹᱨᱯᱷᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Hatem<b/>Ben<b/>Arfa<s n="np"/><s n="ant"/></l><r>ᱦᱟᱴᱮᱢ<b/>ᱵᱤᱱ<b/>ᱟᱹᱨᱯᱷᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Haukur<s n="np"/><s n="ant"/></l><r>ᱦᱟᱹᱣᱠᱩᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hayden<s n="np"/><s n="ant"/></l><r>ᱦᱟᱭᱰᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Haytham<s n="np"/><s n="ant"/></l><r>ᱦᱟᱭᱛᱷᱟᱢ<s n="np"/><s n="ant"/></r></p></e>
@@ -2225,7 +2215,7 @@
 <e><p><l>Hendrik<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱰᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hendry<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱰᱨᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Henri<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Henri Donnedieu de Vabres<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱨᱤ ᱰᱚᱱᱮᱰᱤᱭᱣ ᱰᱮ ᱵᱷᱟᱵᱽᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Henri<b/>Donnedieu<b/>de<b/>Vabres<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱨᱤ<b/>ᱰᱚᱱᱮᱰᱤᱭᱣ<b/>ᱰᱮ<b/>ᱵᱷᱟᱵᱽᱨᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Henriko<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱨᱤᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Henry<s n="np"/><s n="ant"/></l><r>ᱦᱮᱱᱨᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hephaestus<s n="np"/><s n="ant"/></l><r>ᱦᱮᱯᱷᱟᱮᱥᱴᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2306,7 +2296,7 @@
 <e><p><l>Hudson<s n="np"/><s n="ant"/></l><r>ᱦᱩᱰᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hugh<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱽᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hugo<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Hugo Grau<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱚ ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Hugo<b/>Grau<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱚ<b/>ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hugolino<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱚᱞᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hugon<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Hugues<s n="np"/><s n="ant"/></l><r>ᱦᱩᱜᱩᱣᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2341,7 +2331,7 @@
 <e><p><l>Ignaco<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ignasi<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱥᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ignatius<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱴᱤᱭᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ignatius of Antioch<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱴᱤᱭᱩᱥ ᱚᱯᱷ ᱟᱱᱴᱤᱭᱚᱪᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Ignatius<b/>of<b/>Antioch<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱴᱤᱭᱩᱥ<b/>ᱚᱯᱷ<b/>ᱟᱱᱴᱤᱭᱚᱪᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ignazio<s n="np"/><s n="ant"/></l><r>ᱤᱜᱽᱱᱟᱡᱤᱭᱳ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Igor<s n="np"/><s n="ant"/></l><r>ᱤᱜᱚᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ihor<s n="np"/><s n="ant"/></l><r>ᱤᱦᱚᱨ<s n="np"/><s n="ant"/></r></p></e>
@@ -2460,8 +2450,8 @@
 <e><p><l>Jamel<s n="np"/><s n="ant"/></l><r>ᱡᱟᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>James<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>James<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>James I<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>James II<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ ᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>James<b/>I<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>James<b/>II<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jameson<s n="np"/><s n="ant"/></l><r>ᱡᱮᱢᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jamie<s n="np"/><s n="ant"/></l><r>ᱡᱟᱢᱤᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jamil<s n="np"/><s n="ant"/></l><r>ᱡᱟᱢᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -2469,7 +2459,7 @@
 <e><p><l>Jamison<s n="np"/><s n="ant"/></l><r>ᱡᱟᱢᱤᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jan<s n="np"/><s n="ant"/></l><r>ᱡᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ján<s n="np"/><s n="ant"/></l><r>ᱡᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jan O.<s n="np"/><s n="ant"/></l><r>ᱡᱟᱱ ᱚ.<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jan<b/>O.<s n="np"/><s n="ant"/></l><r>ᱡᱟᱱ<b/>ᱚ.<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jano<s n="np"/><s n="ant"/></l><r>ᱡᱟᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jaquan<s n="np"/><s n="ant"/></l><r>ᱡᱟᱠᱩᱣᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jaques<s n="np"/><s n="ant"/></l><r>ᱡᱟᱠᱩᱣᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2487,11 +2477,11 @@
 <e><p><l>Jason<s n="np"/><s n="ant"/></l><r>ᱡᱟᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jasper<s n="np"/><s n="ant"/></l><r>ᱡᱟᱥᱯᱟᱹᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱢᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jaume Mas<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱢᱤ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jaume<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱢᱤ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Javen<s n="np"/><s n="ant"/></l><r>ᱡᱟᱵᱷᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Javi<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Javier<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱤᱭᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Javier Solana Madariaga<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱤᱭᱮᱨ ᱥᱚᱞᱟᱱᱟ ᱢᱟᱸᱰᱟᱹᱨᱤᱭᱟᱹᱜᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Javier<b/>Solana<b/>Madariaga<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱤᱭᱮᱨ<b/>ᱥᱚᱞᱟᱱᱟ<b/>ᱢᱟᱸᱰᱟᱹᱨᱤᱭᱟᱹᱜᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Javion<s n="np"/><s n="ant"/></l><r>ᱡᱟᱵᱷᱤᱭᱳᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Javon<s n="np"/><s n="ant"/></l><r>ᱡᱟᱵᱷᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jawaharlal<s n="np"/><s n="ant"/></l><r>ᱡᱟᱣᱟᱦᱟᱹᱨᱞᱟᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -2508,7 +2498,7 @@
 <e><p><l>Jayson<s n="np"/><s n="ant"/></l><r>ᱡᱟᱭᱥᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jean<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jean-Baptiste<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱵᱟᱯᱴᱤᱥᱴᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jean-Baptiste Charles Mas de Polart<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱵᱟᱯᱴᱤᱥᱴᱮ ᱪᱟᱨᱞᱥ ᱢᱟᱸᱥ ᱰᱮ ᱯᱚᱞᱟᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jean-Baptiste<b/>Charles<b/>Mas<b/>de<b/>Polart<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱵᱟᱯᱴᱤᱥᱴᱮ<b/>ᱪᱟᱨᱞᱥ<b/>ᱢᱟᱸᱥ<b/>ᱰᱮ<b/>ᱯᱚᱞᱟᱨᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jean-Bernard<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱵᱟᱹᱨᱱᱟᱨᱰ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jean-Charles<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱪᱟᱨᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jean-Christophe<s n="np"/><s n="ant"/></l><r>ᱡᱤᱱ-ᱠᱷᱨᱤᱥᱴᱚᱯᱷᱤ<s n="np"/><s n="ant"/></r></p></e>
@@ -2561,21 +2551,21 @@
 <e><p><l>Jimy<s n="np"/><s n="ant"/></l><r>ᱡᱤᱢᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joab<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱹᱵ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joan<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Antoni<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱟᱱᱴᱚᱱᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Carretero i Grau<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱠᱟᱨᱮᱴᱮᱨᱚ ᱤ ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Josep<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱡᱚᱥᱮᱯᱷᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Manel<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱱᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Mas i Bauzà<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ ᱤ ᱵᱟᱹᱣᱡᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Mas i Cantí<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ ᱤ ᱠᱟᱱᱴᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Mas i Ramon<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ ᱤ ᱨᱟᱢᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joan Mas i Vives<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ ᱢᱟᱸᱥ ᱤ ᱣᱤᱵᱷᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Antoni<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱟᱱᱴᱚᱱᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Carretero<b/>i<b/>Grau<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱠᱟᱨᱮᱴᱮᱨᱚ<b/>ᱤ<b/>ᱜᱽᱨᱟᱹᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Josep<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱡᱚᱥᱮᱯᱷᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Manel<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱱᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Mas<b/>i<b/>Bauzà<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<b/>ᱤ<b/>ᱵᱟᱹᱣᱡᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Mas<b/>i<b/>Cantí<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<b/>ᱤ<b/>ᱠᱟᱱᱴᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Mas<b/>i<b/>Ramon<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<b/>ᱤ<b/>ᱨᱟᱢᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joan<b/>Mas<b/>i<b/>Vives<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱱ<b/>ᱢᱟᱸᱥ<b/>ᱤ<b/>ᱣᱤᱵᱷᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>João<s n="np"/><s n="ant"/></l><r>ᱡᱚᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joaquim<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱩᱣᱤᱢ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joaquin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱩᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joaquín<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱩᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joaquín Almunia Amann<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱣᱤᱱ ᱟᱞᱢᱩᱸᱱᱤᱭᱟᱹ ᱟᱢᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joaquín Almunia<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱣᱤᱱ ᱟᱞᱢᱩᱸᱱᱤᱭᱟᱹ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joaquín<b/>Almunia<b/>Amann<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱣᱤᱱ<b/>ᱟᱞᱢᱩᱸᱱᱤᱭᱟᱹ<b/>ᱟᱢᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joaquín<b/>Almunia<s n="np"/><s n="ant"/></l><r>ᱡᱚᱣᱟᱠᱣᱤᱱ<b/>ᱟᱞᱢᱩᱸᱱᱤᱭᱟᱹ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joav<s n="np"/><s n="ant"/></l><r>ᱡᱚᱟᱣ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Job<s n="np"/><s n="ant"/></l><r>ᱡᱚᱵᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jock<s n="np"/><s n="ant"/></l><r>ᱡᱚᱠ<s n="np"/><s n="ant"/></r></p></e>
@@ -2587,36 +2577,36 @@
 <e><p><l>Johann<s n="np"/><s n="ant"/></l><r>ᱡᱚᱦᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Johannes<s n="np"/><s n="ant"/></l><r>ᱡᱚᱦᱟᱱᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>John<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John Cabot<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱠᱟᱵᱚᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John Calvin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱠᱟᱞᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John I<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John II<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John III<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John IV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱔<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John IX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱙<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John of God<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱚᱯᱷ ᱜᱚᱰ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John of Matha<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱚᱯᱷ ᱢᱟᱸᱛᱷᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John Paul I<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱯᱟᱹᱣᱞ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John Paul II<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱯᱟᱹᱣᱞ ᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John the Baptist<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱫᱟᱹ ᱵᱟᱯᱴᱤᱥᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John V<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱕<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John VI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱖<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John VII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱗<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John VIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱘<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John X<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱐<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱓<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XIV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱔<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XIX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱙<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱕<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XVI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱖<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XVII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱗<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XVIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱑᱘<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱒᱐<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XXI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱓᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XXII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱒᱒<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>John XXIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ ᱒᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>Cabot<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱠᱟᱵᱚᱴ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>Calvin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱠᱟᱞᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>I<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>II<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>III<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>IV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>IX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱙<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>of<b/>God<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱚᱯᱷ<b/>ᱜᱚᱰ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>of<b/>Matha<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱚᱯᱷ<b/>ᱢᱟᱸᱛᱷᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>Paul<b/>I<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱯᱟᱹᱣᱞ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>Paul<b/>II<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱯᱟᱹᱣᱞ<b/>᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>the<b/>Baptist<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>ᱫᱟᱹ<b/>ᱵᱟᱯᱴᱤᱥᱴ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>V<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱕<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>VI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱖<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>VII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱗<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>VIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱘<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>X<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱐<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱓<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XIV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱔<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XIX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱙<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XV<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱕<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XVI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱖<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XVII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱗<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XVIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱑᱘<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XX<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱒᱐<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XXI<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱓᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XXII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱒᱒<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>John<b/>XXIII<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱ<b/>᱒᱓<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Johnathan<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱᱟᱛᱷᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Johnathon<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱᱟᱛᱷᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Johnnie<s n="np"/><s n="ant"/></l><r>ᱡᱚᱱᱤᱭ<s n="np"/><s n="ant"/></r></p></e>
@@ -2639,38 +2629,38 @@
 <e><p><l>Jordy<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱰᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jörg<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱽ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jorge<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jorge María<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮ ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jorge Mas Canosa<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮ ᱢᱟᱸᱥ ᱠᱟᱱᱚᱥᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jørgen Mohr<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮᱱ ᱢᱚᱦᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jorge<b/>María<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮ<b/>ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jorge<b/>Mas<b/>Canosa<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮ<b/>ᱢᱟᱸᱥ<b/>ᱠᱟᱱᱚᱥᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jørgen<b/>Mohr<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱜᱮᱱ<b/>ᱢᱚᱦᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jori<s n="np"/><s n="ant"/></l><r>ᱡᱚᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josce<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joscelin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱭᱞᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jose<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>José<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José Luis<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮ ᱞᱩᱣᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José Luis Rodríguez Zapatero<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱞᱩᱣᱤᱥ ᱨᱚᱰᱨᱤᱜᱩᱣᱮᱡᱽ ᱡᱟᱯᱟᱴᱮᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José Manuel Durão Barroso<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱟᱸᱱᱩᱣᱮᱞ ᱰᱩᱨᱟᱣ ᱵᱟᱨᱚᱥᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jose Mari<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱟᱸᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José María<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José María Aznar<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱟᱸᱨᱤᱭᱟ ᱟᱡᱽᱱᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José María Barreda<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱟᱸᱨᱤᱭᱟ ᱵᱟᱨᱮᱰᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José Montilla Aguilera<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱢᱚᱱᱴᱤᱞᱟ ᱟᱹᱜᱩᱣᱤᱞᱮᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>José Sócrates<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ ᱥᱚᱠᱨᱮᱴᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>Luis<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮ<b/>ᱞᱩᱣᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>Luis<b/>Rodríguez<b/>Zapatero<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱞᱩᱣᱤᱥ<b/>ᱨᱚᱰᱨᱤᱜᱩᱣᱮᱡᱽ<b/>ᱡᱟᱯᱟᱴᱮᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>Manuel<b/>Durão<b/>Barroso<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱟᱸᱱᱩᱣᱮᱞ<b/>ᱰᱩᱨᱟᱣ<b/>ᱵᱟᱨᱚᱥᱚ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jose<b/>Mari<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱟᱸᱨᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>María<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>María<b/>Aznar<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱟᱸᱨᱤᱭᱟ<b/>ᱟᱡᱽᱱᱟᱹᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>María<b/>Barreda<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱟᱸᱨᱤᱭᱟ<b/>ᱵᱟᱨᱮᱰᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>Montilla<b/>Aguilera<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱢᱚᱱᱴᱤᱞᱟ<b/>ᱟᱹᱜᱩᱣᱤᱞᱮᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>José<b/>Sócrates<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥ<b/>ᱥᱚᱠᱨᱮᱴᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joseba<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱵᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josef<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josefat<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷᱟᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josemaría<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱢᱟᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josep<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josep Antoni<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱟᱱᱴᱚᱱᱤ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josep Lluís Cleries i Gonzàlez<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱞᱩᱣᱤᱥ ᱠᱞᱮᱨᱤᱭᱮᱥ ᱤ ᱜᱚᱱᱡᱟᱞᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josep Maria Pelegrí i Aixut<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱢᱟᱸᱨᱤᱭᱟ ᱯᱮᱞᱮᱜᱽᱨᱤ ᱤ ᱟᱭᱥᱩᱴᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josep Moragues i Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱢᱚᱨᱟᱜᱩᱣᱮᱥ ᱤ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josep Vicenç Foix i Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱣᱤᱥᱮᱱᱠ ᱯᱚᱭᱤᱠᱥ ᱤ ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josep<b/>Antoni<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱟᱱᱴᱚᱱᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josep<b/>Lluís<b/>Cleries<b/>i<b/>Gonzàlez<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱞᱩᱣᱤᱥ<b/>ᱠᱞᱮᱨᱤᱭᱮᱥ<b/>ᱤ<b/>ᱜᱚᱱᱡᱟᱞᱮᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josep<b/>Maria<b/>Pelegrí<b/>i<b/>Aixut<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱢᱟᱸᱨᱤᱭᱟ<b/>ᱯᱮᱞᱮᱜᱽᱨᱤ<b/>ᱤ<b/>ᱟᱭᱥᱩᱴᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josep<b/>Moragues<b/>i<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱢᱚᱨᱟᱜᱩᱣᱮᱥ<b/>ᱤ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josep<b/>Vicenç<b/>Foix<b/>i<b/>Mas<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱣᱤᱥᱮᱱᱠ<b/>ᱯᱚᱭᱤᱠᱥ<b/>ᱤ<b/>ᱢᱟᱸᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joseph<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Joseph Stalin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ ᱥᱤᱭᱟᱞᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Joseph<b/>Stalin<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱯᱷ<b/>ᱥᱤᱭᱟᱞᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joserra<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱮᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josh<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱦ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Josh Duhamel<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱦ ᱰᱩᱦᱟᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Josh<b/>Duhamel<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱦ<b/>ᱰᱩᱦᱟᱢᱮᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Joshua<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱦᱩᱣᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josiah<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱤᱭᱟᱦ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Josias<s n="np"/><s n="ant"/></l><r>ᱡᱚᱥᱤᱭᱟᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2693,22 +2683,22 @@
 <e><p><l>Joxemi<s n="np"/><s n="ant"/></l><r>ᱡᱚᱠᱥᱮᱢᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jozef<s n="np"/><s n="ant"/></l><r>ᱡᱚᱡᱮᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Juan<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Alberto Andreu<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱟᱞᱵᱟᱹᱨᱴᱚ ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Carlos<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱠᱟᱨᱞᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Carlos I<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱠᱟᱨᱞᱚᱥ ᱑<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Cruz<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱠᱨᱩᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan de Dios<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱰᱮ ᱰᱫᱣᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan de Mata<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱰᱮ ᱢᱟᱸᱴᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Diego de Guadalupe<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱰᱤᱭᱮᱜᱚ ᱰᱮ ᱜᱩᱣᱟᱰᱮᱞᱩᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Jesús<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱡᱮᱥᱟᱹᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Jesús Vivas Lara<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱡᱮᱥᱩᱥ ᱵᱷᱤᱵᱷᱟᱥ ᱞᱟᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan José<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱡᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan José Ibarretxe Markuartu<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱡᱚᱥ ᱤᱵᱽᱟᱹᱨᱮᱴᱷᱥᱮ ᱢᱟᱸᱨᱠᱩᱣᱟᱹᱨᱴᱩ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan José Ibarretxe<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱡᱚᱥ ᱤᱵᱽᱟᱹᱨᱮᱴᱷᱥᱮ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Manuel Fabra Valles<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱢᱟᱸᱱᱩᱣᱮᱞ ᱯᱷᱟᱵᱽᱨᱟ ᱣᱟᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan María<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juan Vicente Mas Quiles<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ ᱣᱤᱥᱮᱱᱴᱮ ᱢᱟᱸᱥ ᱠᱩᱣᱤᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Juande Ramos<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱᱰᱮ ᱨᱟᱢᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Alberto<b/>Andreu<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱟᱞᱵᱟᱹᱨᱴᱚ<b/>ᱟᱱᱰᱨᱤᱣ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Carlos<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱠᱟᱨᱞᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Carlos<b/>I<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱠᱟᱨᱞᱚᱥ<b/>᱑<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Cruz<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱠᱨᱩᱡᱽ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>de<b/>Dios<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱰᱮ<b/>ᱰᱫᱣᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>de<b/>Mata<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱰᱮ<b/>ᱢᱟᱸᱴᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Diego<b/>de<b/>Guadalupe<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱰᱤᱭᱮᱜᱚ<b/>ᱰᱮ<b/>ᱜᱩᱣᱟᱰᱮᱞᱩᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Jesús<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱡᱮᱥᱟᱹᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Jesús<b/>Vivas<b/>Lara<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱡᱮᱥᱩᱥ<b/>ᱵᱷᱤᱵᱷᱟᱥ<b/>ᱞᱟᱨᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>José<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱡᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>José<b/>Ibarretxe<b/>Markuartu<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱡᱚᱥ<b/>ᱤᱵᱽᱟᱹᱨᱮᱴᱷᱥᱮ<b/>ᱢᱟᱸᱨᱠᱩᱣᱟᱹᱨᱴᱩ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>José<b/>Ibarretxe<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱡᱚᱥ<b/>ᱤᱵᱽᱟᱹᱨᱮᱴᱷᱥᱮ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Manuel<b/>Fabra<b/>Valles<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱢᱟᱸᱱᱩᱣᱮᱞ<b/>ᱯᱷᱟᱵᱽᱨᱟ<b/>ᱣᱟᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>María<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱢᱟᱸᱨᱤᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juan<b/>Vicente<b/>Mas<b/>Quiles<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱ<b/>ᱣᱤᱥᱮᱱᱴᱮ<b/>ᱢᱟᱸᱥ<b/>ᱠᱩᱣᱤᱞᱮᱥ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Juande<b/>Ramos<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱᱰᱮ<b/>ᱨᱟᱢᱚᱥ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Juanito<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱᱤᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Juanse<s n="np"/><s n="ant"/></l><r>ᱡᱩᱣᱟᱱᱥᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jubal<s n="np"/><s n="ant"/></l><r>ᱡᱩᱵᱟᱞ<s n="np"/><s n="ant"/></r></p></e>
@@ -2731,7 +2721,7 @@
 <e><p><l>Jürgen<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jurgen<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jürgen<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jürgen Trumpf<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱮᱱ ᱴᱨᱟᱹᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jürgen<b/>Trumpf<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱮᱱ<b/>ᱴᱨᱟᱹᱯᱷ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jurgi<s n="np"/><s n="ant"/></l><r>ᱡᱩᱨᱜᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Juste<s n="np"/><s n="ant"/></l><r>ᱡᱩᱥᱤᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Justice<s n="np"/><s n="ant"/></l><r>ᱡᱟᱹᱥᱴᱤᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2783,7 +2773,7 @@
 <e><p><l>Kelton<s n="np"/><s n="ant"/></l><r>ᱠᱮᱞᱴᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kelvin<s n="np"/><s n="ant"/></l><r>ᱠᱮᱞᱣᱤᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ken<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Ken Saro-Wiwa<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱ ᱥᱟᱨᱚ-ᱣᱤᱣᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Ken<b/>Saro-Wiwa<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱ<b/>ᱥᱟᱨᱚ-ᱣᱤᱣᱟ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kendall<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱᱰᱟᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kendrick<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱᱰᱨᱤᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kenji<s n="np"/><s n="ant"/></l><r>ᱠᱮᱱᱡᱤ<s n="np"/><s n="ant"/></r></p></e>
@@ -2805,8 +2795,8 @@
 <e><p><l>Khalil<s n="np"/><s n="ant"/></l><r>ᱠᱷᱟᱞᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kian<s n="np"/><s n="ant"/></l><r>ᱠᱤᱭᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kieran<s n="np"/><s n="ant"/></l><r>ᱠᱤᱭᱮᱨᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Kim Jong-il<s n="np"/><s n="ant"/></l><r>ᱠᱤᱢ ᱡᱚᱝᱜᱽ-ᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>King Solomon<s n="np"/><s n="ant"/></l><r>ᱠᱤᱝ ᱥᱚᱞᱚᱢᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Kim<b/>Jong-il<s n="np"/><s n="ant"/></l><r>ᱠᱤᱢ<b/>ᱡᱚᱝᱜᱽ-ᱤᱞ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>King<b/>Solomon<s n="np"/><s n="ant"/></l><r>ᱠᱤᱝ<b/>ᱥᱚᱞᱚᱢᱚᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kirby<s n="np"/><s n="ant"/></l><r>ᱠᱤᱨᱵᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Kirk<s n="np"/><s n="ant"/></l><r>ᱠᱤᱨᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Klaus<s n="np"/><s n="ant"/></l><r>ᱠᱞᱟᱣᱩᱥ<s n="np"/><s n="ant"/></r></p></e>
@@ -2853,8 +2843,8 @@
 <e><p><l>Lamont<s n="np"/><s n="ant"/></l><r>ᱞᱟᱢᱚᱱᱴ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lance<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lancelot<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭᱞᱚᱴ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Lancelot du Lac<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭᱞᱚᱴ ᱰᱩ ᱞᱟᱠ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Lancelot of the Lake<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭᱞᱚᱴ ᱚᱯᱷ ᱫᱟᱹ ᱞᱮᱠ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Lancelot<b/>du<b/>Lac<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭᱞᱚᱴ<b/>ᱰᱩ<b/>ᱞᱟᱠ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Lancelot<b/>of<b/>the<b/>Lake<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱥᱮᱭᱞᱚᱴ<b/>ᱚᱯᱷ<b/>ᱫᱟᱹ<b/>ᱞᱮᱠ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Landelino<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱰᱮᱞᱤᱱᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Landen<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱰᱮᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Landolfo<s n="np"/><s n="ant"/></l><r>ᱞᱟᱱᱰᱚᱞᱯᱷᱚ<s n="np"/><s n="ant"/></r></p></e>
@@ -2883,104 +2873,226 @@
 <e><p><l>Lazare<s n="np"/><s n="ant"/></l><r>ᱞᱟᱡᱟᱹᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lázaro<s n="np"/><s n="ant"/></l><r>ᱞᱟᱹᱡᱟᱹᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lazzaro<s n="np"/><s n="ant"/></l><r>ᱞᱟᱹᱡᱟᱹᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Le Corbusier<s n="np"/><s n="ant"/></l><r>ᱞᱮ ᱠᱚᱨᱵᱩᱥᱤᱭᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Le Roi<s n="np"/><s n="ant"/></l><r>ᱞᱮ ᱨᱚᱭᱤ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Le<b/>Corbusier<s n="np"/><s n="ant"/></l><r>ᱞᱮ<b/>ᱠᱚᱨᱵᱩᱥᱤᱭᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Le<b/>Roi<s n="np"/><s n="ant"/></l><r>ᱞᱮ<b/>ᱨᱚᱭᱤ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Léandre<s n="np"/><s n="ant"/></l><r>ᱞᱤᱭᱮᱱᱰᱨᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Leandro<s n="np"/><s n="ant"/></l><r>ᱞᱤᱭᱟᱱᱰᱨᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Learco<s n="np"/><s n="ant"/></l><r>ᱞᱮᱭᱟᱨᱠᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Leberato<s n="np"/><s n="ant"/></l><r>ᱞᱮᱵᱟᱹᱨᱴᱚ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lebian<s n="np"/><s n="ant"/></l><r>ᱞᱮᱵᱤᱭᱟᱱ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lech<s n="np"/><s n="ant"/></l><r>ᱞᱮᱪᱷ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Lech Kaczynski<s n="np"/><s n="ant"/></l><r>ᱞᱮᱪᱷ ᱠᱟᱠᱡᱤᱭᱱᱥᱠᱤᱭ<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Lech<b/>Kaczynski<s n="np"/><s n="ant"/></l><r>ᱞᱮᱪᱷ<b/>ᱠᱟᱠᱡᱤᱭᱱᱥᱠᱤᱭ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Lee<s n="np"/><s n="ant"/></l><r>ᱞᱮ<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Legér<s n="np"/><s n="ant"/></l><r>ᱞᱮᱜᱮᱨ<s n="np"/><s n="ant"/></r></p></e>
 
-
 			<!-- Feminine Names -->
-
 	  
-<e><p><l>Sunya<s n="np"/><s n="ant"/></l><r>ᱥᱩᱱᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Baha<s n="np"/><s n="ant"/></l><r>ᱵᱟᱦᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Sunya<s n="np"/><s n="ant"/></l>       <r>ᱥᱩᱱᱭᱟ<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Baha<s n="np"/><s n="ant"/></l>        <r>ᱵᱟᱦᱟ<s n="np"/><s n="ant"/></r></p></e>
 	 		 <!-- Surnames -->
-<e><p><l>Murmu<s n="np"/><s n="cog"/></l><r>ᱢᱩᱨᱢᱩ<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Kisku<s n="np"/><s n="cog"/></l><r>ᱠᱤᱥᱠᱩ<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Hembram<s n="np"/><s n="cog"/></l><r>ᱦᱮᱸᱢᱵᱽᱨᱚᱢ<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Tudu<s n="np"/><s n="cog"/></l><r>ᱴᱩᱰᱩ<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Murmu<s n="np"/><s n="cog"/></l>       <r>ᱢᱩᱨᱢᱩ<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Kisku<s n="np"/><s n="cog"/></l>       <r>ᱠᱤᱥᱠᱩ<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Hembram<s n="np"/><s n="cog"/></l>     <r>ᱦᱮᱸᱢᱵᱽᱨᱚᱢ<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Tudu<s n="np"/><s n="cog"/></l>        <r>ᱴᱩᱰᱩ<s n="np"/><s n="cog"/></r></p></e>
 	  	  	<!-- Country -->
-<e><p><l>India<s n="np"/><s n="top"/></l><r>ᱵᱷᱟᱨᱚᱛ<s n="np"/><s n="top"/></r></p></e>
-<e r="RL"><p><l>India<s n="np"/><s n="top"/></l><r>ᱥᱤᱧᱚᱛ<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Nepal<s n="np"/><s n="top"/></l><r>ᱱᱮᱯᱟᱞ<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Bangladesh<s n="np"/><s n="top"/></l><r>ᱵᱟᱝᱞᱟᱫᱮᱥ<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>India<s n="np"/><s n="top"/></l>       <r>ᱵᱷᱟᱨᱚᱛ<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>India<s n="np"/><s n="top"/></l>       <r>ᱥᱤᱧᱚᱛ<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Nepal<s n="np"/><s n="top"/></l>       <r>ᱱᱮᱯᱟᱞ<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Bangladesh<s n="np"/><s n="top"/></l>  <r>ᱵᱟᱝᱞᱟᱫᱮᱥ<s n="np"/><s n="top"/></r></p></e>
 	  
+	<!-- Proper Nouns Time-->
+<e><p><l>Day<s n="n"/></l><r>ᱫᱤᱱ<s n="n"/></r></p></e>
+<e><p><l>Week<s n="n"/></l><r>ᱦᱟᱴ<s n="n"/></r></p></e>
+<e><p><l>Month<s n="n"/></l><r>ᱪᱟᱸᱫᱚ<s n="n"/></r></p></e>
+<e><p><l>Year<s n="n"/></l><r>ᱥᱮᱨᱢᱟ<s n="n"/></r></p></e>
+<e><p><l>Hour<s n="n"/></l><r>ᱴᱟᱲᱟᱝ<s n="n"/></r></p></e>
+<e><p><l>Minute<s n="n"/></l><r>ᱴᱤᱯᱤᱡ<s n="n"/></r></p></e>
+<e><p><l>Second<s n="n"/></l><r>ᱴᱤᱡ<s n="n"/></r></p></e>
+
+ <!-- Proper Nouns Days and Month names -->
+ 
+<e><p><l>Sunday<s n="n"/></l><r>ᱥᱤᱸᱜᱩᱱ<s n="n"/></r></p></e>
+<e><p><l>Monday<s n="n"/></l><r>ᱚᱛᱮ<s n="n"/></r></p></e>
+<e><p><l>Tuesday<s n="n"/></l><r>ᱵᱟᱞᱮ<s n="n"/></r></p></e>
+<e><p><l>Wednesday<s n="n"/></l><r>ᱥᱟ.ᱜᱩᱱ<s n="n"/></r></p></e>
+<e><p><l>Thursday<s n="n"/></l><r>ᱥᱟ.ᱨᱫᱤ<s n="n"/></r></p></e>
+<e><p><l>Friday<s n="n"/></l><r>ᱡᱟ.ᱨᱩᱵ<s n="n"/></r></p></e>
+<e><p><l>Saturday<s n="n"/></l><r>ᱧᱩᱸᱦᱩᱢ<s n="n"/></r></p></e>
+<e><p><l>January<s n="n"/></l><r>ᱡᱟᱱᱩᱟᱨᱤ<s n="n"/></r></p></e>
+<e><p><l>February<s n="n"/></l><r>ᱯᱦᱮᱵᱨᱩᱟᱨᱭ<s n="n"/></r></p></e>
+<e><p><l>March<s n="n"/></l><r>ᱢᱟᱨᱪ<s n="n"/></r></p></e>
+<e><p><l>April<s n="n"/></l><r>ᱮᱯᱨᱤᱞ<s n="n"/></r></p></e>
+<e><p><l>May<s n="n"/></l><r>ᱢᱮᱭ<s n="n"/></r></p></e>
+<e><p><l>June<s n="n"/></l><r>ᱡᱩᱱ<s n="n"/></r></p></e>
+<e><p><l>July<s n="n"/></l><r>ᱡᱩᱞᱭ<s n="n"/></r></p></e>
+<e><p><l>August<s n="n"/></l><r>ᱟᱜᱚᱥᱴ<s n="n"/></r></p></e>
+<e><p><l>September<s n="n"/></l><r>ᱥᱮᱯᱴᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+<e><p><l>October<s n="n"/></l><r>ᱚᱠᱴᱚᱵᱚᱨ<s n="n"/></r></p></e>
+<e><p><l>November<s n="n"/></l><r>ᱱᱚᱵᱷᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+<e><p><l>December<s n="n"/></l><r>ᱰᱤᱥᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+
+<!-- Proper Nouns Colour-->
+<e><p><l>Black<s n="n"/></l><r>ᱦᱮᱸᱫᱮ<s n="n"/></r></p></e>
+<e><p><l>Blue<s n="n"/></l><r>ᱞᱤᱞ<s n="n"/></r></p></e>
+<e><p><l>Red<s n="n"/></l><r>ᱟᱨᱟᱜ<s n="n"/></r></p></e>
+<e><p><l>Green<s n="n"/></l><r>ᱦᱟ.ᱨᱤᱭᱟ.ᱲ<s n="n"/></r></p></e>
+<e><p><l>White<s n="n"/></l><r>ᱯᱩᱸᱰ<s n="n"/></r></p></e>
+<e><p><l>Yellow<s n="n"/></l><r>ᱥᱟᱥᱟᱝ<s n="n"/></r></p></e>
+<e><p><l>Brown<s n="n"/></l><r>ᱢᱟᱴᱤᱭᱟᱲ<s n="n"/></r></p></e>
+<e><p><l>Orange <s n="n"/></l><r>ᱜᱮᱨᱩᱟ<s n="n"/></r></p></e>
+<e><p><l>Brinjal<s n="n"/></l><r>ᱵᱮᱱᱜᱩᱱᱤ<s n="n"/></r></p></e>
+
+
+
+
+
 	  <!-- SECTION: Numerals -->
 	
-<e><p><l>0<s n="num"/></l><r>᱐<s n="num"/></r></p></e>
-<e><p><l>1<s n="num"/></l><r>᱑<s n="num"/></r></p></e>
-<e><p><l>2<s n="num"/></l><r>᱒<s n="num"/></r></p></e>
-<e><p><l>3<s n="num"/></l><r>᱓<s n="num"/></r></p></e>
-<e><p><l>4<s n="num"/></l><r>᱔<s n="num"/></r></p></e>
-<e><p><l>5<s n="num"/></l><r>᱕<s n="num"/></r></p></e>
-<e><p><l>6<s n="num"/></l><r>᱖<s n="num"/></r></p></e>
-<e><p><l>7<s n="num"/></l><r>᱗<s n="num"/></r></p></e>
-<e><p><l>8<s n="num"/></l><r>᱘<s n="num"/></r></p></e>
-<e><p><l>9<s n="num"/></l><r>᱙<s n="num"/></r></p></e>
+<e>       <p><l>0<s n="num"/></l>                      <r>᱐<s n="num"/></r></p></e>
+<e>       <p><l>1<s n="num"/></l>                      <r>᱑<s n="num"/></r></p></e>
+<e>       <p><l>2<s n="num"/></l>                      <r>᱒<s n="num"/></r></p></e>
+<e>       <p><l>3<s n="num"/></l>                      <r>᱓<s n="num"/></r></p></e>
+<e>       <p><l>4<s n="num"/></l>                      <r>᱔<s n="num"/></r></p></e>
+<e>       <p><l>5<s n="num"/></l>                      <r>᱕<s n="num"/></r></p></e>
+<e>       <p><l>6<s n="num"/></l>                      <r>᱖<s n="num"/></r></p></e>
+<e>       <p><l>7<s n="num"/></l>                      <r>᱗<s n="num"/></r></p></e>
+<e>       <p><l>8<s n="num"/></l>                      <r>᱘<s n="num"/></r></p></e>
+<e>       <p><l>9<s n="num"/></l>                      <r>᱙<s n="num"/></r></p></e>
 			
-<e><p><l>one<s n="num"/><s n="sg"/></l><r>ᱢᱤᱫ<s n="num"/><s n="sg"/></r></p></e>	
-<e><p><l>two<s n="num"/><s n="pl"/></l><r>ᱵᱟᱨ<s n="num"/><s n="du"/></r></p></e>
-<e><p><l>three<s n="num"/><s n="pl"/></l><r>ᱯᱮ<s n="num"/><s n="pl"/></r></p></e>	
+<e><p><l>a<b/>hundred<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱥᱟᱭ<s n="num"/></r></p></e>
+<e><p><l>a<b/>million<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱢᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>a<b/>billion<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱵᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>a<b/>thousand<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱦᱟᱡᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>eight<s n="num"/></l><r>ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>eighteen<s n="num"/></l><r>ᱜᱮᱞᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>eighty<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>eighty-eight<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>eighty-five<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱢᱚᱬᱮᱸ<s n="num"/></r></p></e>
+<e><p><l>eighty-four<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>eighty-nine<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>eighty-one<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>eighty-seven<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>eighty-six<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>eighty-three<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>eighty-two<s n="num"/></l><r>ᱤᱨᱟᱹᱞᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>eleven<s n="num"/></l><r>ᱜᱮᱞᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>fifteen<s n="num"/></l><r>ᱜᱮᱞᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>fifty<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>fifty-eight<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>fifty-five<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>fifty-four<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>fifty-nine<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>fifty-one<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>fifty-seven<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>fifty-six<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>fifty-three<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>fifty-two<s n="num"/></l><r>ᱢᱚᱬᱮᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>five<s n="num"/></l><r>ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>forty<s n="num"/></l><r>ᱯᱩᱱᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>four<s n="num"/></l><r>ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>fourteen<s n="num"/></l><r>ᱜᱮᱞᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>RL<s n="num"/></l><r>RL<s n="num"/></r></p></e>
+<e><p><l>million<s n="num"/></l><r>ᱢᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>billion<s n="num"/></l><r>ᱵᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>nine<s n="num"/></l><r>ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>nineteen<s n="num"/></l><r>ᱜᱮᱞᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>ninety<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>ninety-eight<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>ninety-five<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>ninety-four<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>ninety-nine<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>ninety-one<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>ninety-seven<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>ninety-six<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>ninety-three<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>ninety-two<s n="num"/></l><r>ᱟᱨᱮᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>one<s n="num"/></l><r>ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>one<b/>hundred<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱥᱟᱭ<s n="num"/></r></p></e>
+<e><p><l>one<b/>million<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱢᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>one<b/>billion<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱵᱤᱞᱤᱭᱚᱱ<s n="num"/></r></p></e>
+<e><p><l>one<b/>thousand<s n="num"/></l><r>ᱢᱤᱫ<b/>ᱦᱟᱡᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>seven<s n="num"/></l><r>ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>seventeen<s n="num"/></l><r>ᱜᱮᱞᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>seventy<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>seventy-eight<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>seventy-five<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>seventy-four<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>seventy-nine<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>seventy-one<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>seventy-seven<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>seventy-six<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>seventy-three<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>seventy-two<s n="num"/></l><r>ᱮᱭᱮᱭᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>six<s n="num"/></l><r>ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>sixteen<s n="num"/></l><r>ᱜᱮᱞᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>sixty<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>sixty-eight<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>sixty-five<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>sixty-four<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>sixty-nine<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>sixty-one<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>sixty-seven<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>sixty-six<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>sixty-three<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>sixty-two<s n="num"/></l><r>ᱛᱩᱨᱩᱭᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>ten<s n="num"/></l><r>ᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>thirteen<s n="num"/></l><r>ᱜᱮᱞᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>thirty<s n="num"/></l><r>ᱯᱮᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>thousand<s n="num"/></l><r>ᱦᱟᱡᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>three<s n="num"/></l><r>ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>twelve<s n="num"/></l><r>ᱜᱮᱞᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>twenty<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ<s n="num"/></r></p></e>
+<e><p><l>twenty-eight<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱤᱨᱟᱹᱞ<s n="num"/></r></p></e>
+<e><p><l>twenty-five<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱢᱚᱬᱮ<s n="num"/></r></p></e>
+<e><p><l>twenty-four<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱯᱩᱱ<s n="num"/></r></p></e>
+<e><p><l>twenty-nine<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱟᱨᱮ<s n="num"/></r></p></e>
+<e><p><l>twenty-one<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱢᱤᱫ<s n="num"/></r></p></e>
+<e><p><l>twenty-seven<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱮᱭᱮᱭ<s n="num"/></r></p></e>
+<e><p><l>twenty-six<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱛᱩᱨᱩᱭ<s n="num"/></r></p></e>
+<e><p><l>twenty-three<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱯᱮ<s n="num"/></r></p></e>
+<e><p><l>twenty-two<s n="num"/></l><r>ᱵᱟᱨᱜᱮᱞ-ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>two<s n="num"/></l><r>ᱵᱟᱨ<s n="num"/></r></p></e>
+<e><p><l>zero<s n="num"/></l><r>ᱥᱩᱱ<s n="num"/></r></p></e>
 
 	 <!-- SECTION: Uncategorised Words -->
-<e><p><l>Ac<s n="abbr"/></l><r>ᱮᱥᱭ<s n="abbr"/></r></p></e>
-<e><p><l>house<s n="n"/></l><r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
-<e><p><l>goat<s n="n"/></l><r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
-<e><p><l>cow<s n="n"/></l><r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
-<e><p><l>blue<s n="adj"/></l><r>ᱞᱤᱞ<s n="adj"/></r></p></e>	
-<e><p><l>this<s n="det"/></l><r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>	
-<e><p><l>flesh<s n="adj"/></l><r>ᱡᱤᱞ<s n="adj"/></r></p></e>	
-<e><p><l>eat<s n="vblex"/></l><r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
-<e><p><l>.<s n="sent"/></l><r>।<s n="sent"/></r></p></e>
-</section>
-
- <!-- SECTION: Punctuation -->
-
-
-  <section id="regexp" type="standard">
-    <e><p><l>᱿<s n="guio"/></l><r>᱿<s n="guio"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>–<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><re>[\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e r="LR"><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
-    <e r="RL"><p><l></l><r>¿<s n="lquest"/></r></p></e>
-    <e r="RL"><p><l></l><r>¡<s n="lquest"/></r></p></e>
-    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
-    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
-    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
-    <e><re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
-
-    <e><!--      <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re>-->
-<re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
-    <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>
-    <e><p><l>£</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
-    <e><p><l>$</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
-    <e><p><l>€</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
-    <e><p><l>£</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
-    <e><p><l>$</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
-    <e><p><l>€</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
-    <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e><re>[MCDXLVI]+</re><i><s n="num"/><s n="mf"/><s n="sg"/></i></e>
-    <e><re>[$€£]</re><i><s n="mon"/></i></e>
+<e>       <p><l>Ac<s n="abbr"/></l>                    <r>ᱮᱥᱭ<s n="abbr"/></r></p></e>
+<e>       <p><l>house<s n="n"/></l>                    <r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
+<e>       <p><l>goat<s n="n"/></l>                     <r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
+<e>       <p><l>cow<s n="n"/></l>                      <r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
+<e>       <p><l>blue<s n="adj"/></l>                   <r>ᱞᱤᱞ<s n="adj"/></r></p></e>
+<e>       <p><l>this<s n="det"/></l>                   <r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>
+<e>       <p><l>flesh<s n="adj"/></l>                  <r>ᱡᱤᱞ<s n="adj"/></r></p></e>
+<e>       <p><l>eat<s n="vblex"/></l>                  <r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
+<e>       <p><l>.<s n="sent"/></l>                     <r>।<s n="sent"/></r></p></e>
   </section>
+  <section id="regexp" type="standard">
+<e>       <p><l>᱿<s n="guio"/></l>                     <r>᱿<s n="guio"/></r></p></e>
+<e>       <p><l>-<s n="guio"/></l>                     <r>-<s n="guio"/></r></p></e>
+<e>       <p><l>–<s n="guio"/></l>                     <r>–<s n="guio"/></r></p></e>
+<e>       <p><l>᱾<s n="muc"/></l>                       <r>᱾<s n="muc"/></r></p></e>
+<e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
+<e>       <re>[\?;:!]</re><p><l><s n="sent"/></l>      <r><s n="sent"/></r></p></e>
+<e r="LR"><re>[¿¡]</re><p><l><s n="lquest"/></l>       <r><s n="lquest"/></r></p></e>
+<e r="RL"><p><l></l>                                   <r>¿<s n="lquest"/></r></p></e>
+<e r="RL"><p><l></l>                                   <r>¡<s n="lquest"/></r></p></e>
+<e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>       <r><s n="lpar"/></r></p></e>
+<e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>       <r><s n="rpar"/></r></p></e>
+<e>       <p><l>'<s n="apos"/></l>                     <r>'<s n="apos"/></r></p></e>
+<e>       <re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
 
-
+<e>       <!--      <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re>-->
+<re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+<e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>
+<e>       <p><l>£</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
+<e>       <p><l>$</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
+<e>       <p><l>€</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
+<e>       <p><l>£</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>£<s n="num"/><s n="mon"/></r></p></e>
+<e>       <p><l>$</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>$<s n="num"/><s n="mon"/></r></p></e>
+<e>       <p><l>€</l>                                  <r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
+<e>       <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e>       <re>[MCDXLVI]+</re><i><s n="num"/><s n="mf"/><s n="sg"/></i></e>
+<e>       <re>[$€£]</re><i><s n="mon"/></i></e>
+  </section>
 </dictionary>
-
-<!--
-Resources:
-    https://wiki.apertium.org/wiki/Bilingual_dictionary
-    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
-    https://wiki.apertium.org/wiki/List_of_symbols
-	https://wiki.apertium.org/wiki/Chunking:_A_full_example
--->
