@@ -37,6 +37,7 @@
     <sdef n="ref" 	c="Reflexive pronoun"/> 
     <sdef n="res" 	c="Reciprocal pronoun"/> 
     <sdef n="det" 	c="Determiner"/> 
+	<sdef n="post"    c="Postposition"/>  
     <sdef n="pos" 	c="Possessive"/> 
     <sdef n="p1" 	c="1st person"/> 
     <sdef n="p2" 	c="2nd person"/> 
@@ -2942,9 +2943,31 @@
 <e><p><l>Orange <s n="n"/></l><r>ᱜᱮᱨᱩᱟ<s n="n"/></r></p></e>
 <e><p><l>Brinjal<s n="n"/></l><r>ᱵᱮᱱᱜᱩᱱᱤ<s n="n"/></r></p></e>
 
+<!-- SECTION: Conjunctions -->
 
+    <e><p><l>or<s n="cnjcoo"/></l><r>ᱟᱨᱵᱟᱝᱠᱷᱟᱱ<s n="cnjcoo"/></r></p></e>
+    <e><p><l>and<s n="cnjcoo"/></l><r>ᱟᱨ<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>and<s n="cnjcoo"/></l><r>ᱥᱟᱶᱛᱮ<s n="cnjcoo"/></r></p></e>
+	<e r="RL"><p><l>and<s n="cnjcoo"/></l><r>ᱥᱟᱶ<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>or<s n="cnjcoo"/></l><r>ᱟᱨᱵᱟᱝ<s n="cnjcoo"/></r></p></e>
+	<e><p><l>but<s n="cnjcoo"/></l><r>ᱢᱮᱱᱠᱷᱟᱱ<s n="cnjcoo"/></r></p></e>
+    
+	<!-- SECTION: Subordinating conjunctions -->
+	
+    <e><p><l>that<s n="cnjsub"/></l><r>ᱡᱮ<s n="cnjsub"/></r></p></e>
 
+	<!-- Adverbial conjunctions -->
 
+	<e><p><l>then<s n="cnjadv"/></l><r>ᱤᱱᱟᱹ<b/>ᱛᱟᱭᱚᱢ<s n="cnjadv"/></r></p></e>
+	<e><p><l>if<s n="cnjadv"/></l><r>ᱡᱩᱫᱤ<s n="cnjadv"/></r></p></e>
+	<e><p><l>so<s n="cnjadv"/></l><r>ᱚᱱᱟ<b/>ᱛᱮ<s n="cnjadv"/></r></p></e>
+	<e><p><l>until<s n="cnjadv"/></l><r>ᱡᱟᱦᱟᱸ<b/>ᱫᱷᱟᱹᱵᱤᱡ<s n="cnjadv"/></r></p></e>
+	<e><p><l>whether<s n="cnjadv"/></l><r>ᱪᱟᱸᱦᱟᱸᱶ<s n="cnjadv"/></r></p></e>
+    <e><p><l>because<s n="cnjadv"/></l><r>ᱪᱮᱫᱟᱜ<b/>ᱥᱮ<s n="cnjadv"/></r></p></e>
+	<e><p><l>therefore<s n="cnjadv"/></l><r>ᱚᱱᱟᱛᱮ<s n="cnjadv"/></r></p></e>
+	<e><p><l>i.e.<s n="cnjadv"/></l><r>ᱡᱮᱢᱚᱱ<s n="cnjadv"/></r></p></e>
+	<e r="RL"><p><l>i.e.<s n="cnjadv"/></l><r>ᱫᱟᱹᱭᱠᱟᱹ<b/>ᱞᱮᱠᱷᱟᱛᱮ<s n="cnjadv"/></r></p></e>
+	<e r="RL"><p><l>i.e.<s n="cnjadv"/></l><r>ᱟᱭ<b/>.<b/>ᱤ<b/>.<s n="cnjadv"/></r></p></e>
 
 	  <!-- SECTION: Numerals -->
 	
@@ -3054,8 +3077,301 @@
 <e><p><l>two<s n="num"/></l><r>ᱵᱟᱨ<s n="num"/></r></p></e>
 <e><p><l>zero<s n="num"/></l><r>ᱥᱩᱱ<s n="num"/></r></p></e>
 
-	 <!-- SECTION: Uncategorised Words -->
-<e>       <p><l>Ac<s n="abbr"/></l>                    <r>ᱮᱥᱭ<s n="abbr"/></r></p></e>
+<!-- Ordinals -->
+
+<e><p><l>first<s n="num"/><s n="ord"/></l><r>ᱮᱛᱦᱚᱵ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>second<s n="num"/><s n="ord"/></l><r>ᱫᱚᱥᱟᱨ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>third<s n="num"/><s n="ord"/></l><r>ᱛᱮᱥᱟᱨ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>fourth<s n="num"/><s n="ord"/></l><r>ᱯᱩᱱᱟᱹᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>fifth<s n="num"/><s n="ord"/></l><r>ᱢᱚᱬᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>sixth<s n="num"/><s n="ord"/></l><r>ᱛᱩᱨᱩᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>seventh<s n="num"/><s n="ord"/></l><r>ᱮᱭᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>eighth<s n="num"/><s n="ord"/></l><r>ᱤᱨᱟᱹᱞᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>ninth<s n="num"/><s n="ord"/></l><r>ᱟᱨᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>tenth<s n="num"/><s n="ord"/></l><r>ᱜᱮᱞᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+
+<!-- SECTION: Postpositions -->
+
+	<e><p><l>by<s n="pr"/></l><r>ᱮ<s n="post"/></r></p></e>   
+	<e><p><l>according<s n="pr"/></l><r>ᱦᱤᱥᱟᱹᱵ<b/>ᱛᱮ<s n="post"/></r></p></e>
+	<e><p><l>by<s n="pr"/></l><r>ᱛᱮ<s n="post"/></r></p></e>
+	<e><p><l>of<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<s n="post"/></r></p></e>
+	<e><p><l>in<s n="pr"/></l><r>ᱨᱮ<s n="post"/></r></p></e>
+	<e r="RL"><p><l>near<s n="pr"/></l><r>ᱥᱩᱨ<b/>ᱛᱮ<s n="post"/></r></p></e>
+	<e><p><l>near<s n="pr"/></l><r>ᱥᱩᱨ<s n="post"/></r></p></e>
+	<e r="RL"><p><l>near<s n="pr"/></l><r>ᱥᱩᱨ<b/>ᱨᱮ<s n="post"/></r></p></e>
+	<e><p><l>around<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱥᱩᱨᱠᱚᱨᱮ<s n="post"/></r></p></e>
+	<e><p><l>above<s n="pr"/></l><r>ᱪᱮᱛᱟᱱ<b/>ᱨᱮ<s n="post"/></r></p></e>
+    <e><p><l>to<s n="pr"/></l><r>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>ᱞᱟᱹᱜᱤᱫ<s n="post"/></r></p></e>
+    <e r="RL"><p><l>for<s n="pr"/></l><r>ᱠᱷᱟᱹᱛᱤᱨ<s n="post"/></r></p></e>
+	<e><p><l>on<s n="pr"/></l><r>ᱪᱮᱛᱟᱱ<s n="post"/></r></p></e>
+    <e r="RL"><p><l>on<s n="pr"/></l><r>ᱨᱮ<s n="post"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>ᱨᱮ<s n="post"/></r></p></e>
+    <e><p><l>from<s n="pr"/></l><r>ᱠᱷᱚᱱ<s n="post"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>with<s n="pr"/></l><r>ᱥᱟᱣ<s n="post"/></r></p></e> <!-- with love , with care-->
+    <e><p><l>towards<s n="pr"/></l><r>ᱥᱮᱫ<s n="pr"/></r></p></e>
+    <e><p><l>about<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱵᱟᱵᱚᱛ<b/>ᱨᱮ<s n="post"/></r></p></e>
+    <e><p><l>because<b/>of<s n="pr"/></l><r>ᱞᱟᱹᱜᱤᱫ<b/>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱥᱤᱫᱷᱟᱹ<b/>ᱨᱮ<s n="post"/></r></p></e>
+    <e><p><l>with<s n="pr"/></l><r>ᱥᱟᱶ<b/>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>after<s n="pr"/></l><r>ᱤᱱᱟᱹ<b/>ᱛᱟᱭᱚᱢ<s n="post"/></r></p></e>
+    <e><p><l>against<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱵᱤᱨᱩᱫᱷ<s n="post"/></r></p></e>
+    <e r="RL"><p><l>against<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱠᱷᱤᱞᱟᱹᱯᱷ<s n="post"/></r></p></e>
+	<e><p><l>within<s n="pr"/></l><r>ᱵᱷᱤᱛᱨᱭ<b/>ᱨᱮ<s n="post"/></r></p></e>
+	<e><p><l>under<s n="pr"/></l><r>ᱞᱟᱛᱟᱨ<s n="post"/></r></p></e>
+    <e><p><l>as<s n="pr"/></l><r>ᱞᱮᱠᱷᱟ<b/>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>along<b/>with<s n="pr"/></l><r>ᱥᱟᱶᱼᱥᱟᱶ<b/>ᱛᱮ<s n="post"/></r></p></e>
+	<e><p><l>along<b/>with<s n="pr"/></l><r>ᱥᱟᱶᱛᱮ<s n="post"/></r></p></e>	
+    <e><p><l>behind<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱛᱟᱭᱚᱢ<s n="post"/></r></p></e>
+    <e><p><l>under<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱞᱟᱛᱟᱨ<s n="post"/></r></p></e>
+    <e><p><l>near<s n="pr"/></l><r>ᱟᱜ<b/>ᱥᱩᱨ<s n="post"/></r></p></e>
+    <e><p><l>according<b/>to<s n="pr"/></l><r>ᱦᱤᱥᱟᱹᱵ<b/>ᱛᱮ<s n="post"/></r></p></e>
+    <e><p><l>during<s n="pr"/></l><r>ᱚᱠᱛᱚ<b/>ᱡᱷᱚᱜ<s n="post"/></r></p></e>
+    <e><p><l>during<s n="pr"/></l><r>ᱩᱱ<b/>ᱡᱷᱚᱜ<s n="post"/></r></p></e>
+    <e><p><l>because<b/>of<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱠᱟᱨᱚᱬ<s n="post"/></r></p></e>
+    <e><p><l>due<b/>to<s n="pr"/></l><r>ᱨᱮᱭᱟᱜ<b/>ᱠᱟᱨᱚᱬ<s n="post"/></r></p></e>
+    <e><p><l>before<s n="pr"/></l><r>ᱛᱟᱭᱚᱢ<s n="post"/></r></p></e>
+
+<!-- SECTION: Determiners  -->
+
+    <e><p><l>my<s n="det"/><s n="pos"/></l><r>ᱤᱧᱟᱜ<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>a<s n="det"/><s n="ind"/></l><r>ᱢᱤᱫᱴᱟᱹᱝ<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>such<s n="det"/><s n="ind"/></l><r>ᱞᱮᱠᱷᱟ<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>other<s n="det"/><s n="ind"/></l><r>ᱮᱴᱟᱜ<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>many<s n="det"/><s n="qnt"/></l><r>ᱟᱭᱢᱟ<s n="det"/><s n="qnt"/></r></p></e>
+    <e r="RL"><p><l>many<s n="det"/><s n="qnt"/></l><r>ᱰᱷᱮᱨ<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>both<s n="det"/><s n="ind"/></l><r>ᱵᱟᱨᱭᱟ<s n="det"/><s n="ind"/></r></p></e>
+    <e r="RL"><p><l>both<s n="det"/><s n="ind"/></l><r>ᱵᱟᱨ<s n="det"/><s n="ind"/></r></p></e>
+
+<!-- SECTION: Pronouns  Not added to Monodic
+
+    <e><p><l>who<s n="prn"/></l><r>ᱚᱠᱚᱭ<s n="prn"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ᱤᱧ<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>ᱟᱞᱮ<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>ᱟᱢ<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>ᱟᱹᱵᱤᱱ<s n="prn"/><s n="pers"/><s n="p2"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>अप<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>ᱱᱚᱶᱟ<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>ᱚᱠᱟ<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>ᱚᱱᱟ<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>ᱱᱚᱶᱟ<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>ᱚᱠᱟ<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+	<e><p><l>who<s n="prn"/><s n="itg"/><s n="sp"/></l><r>ᱡᱟᱦᱟᱸᱭ<s n="prn"/><s n="itg"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+	<e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>ᱚᱱᱟ<s n="prn"/><s n="pers"/><s n="p3"/><s n="frm"/><s n="mf"/><s n="pl"/></r></p></e>	
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>व<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>य<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>व<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>य<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>any<s n="prn"/><s n="tn"/><s n="sp"/></l><r>ᱡᱟᱦᱟᱸᱭ<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>ᱛᱮ<s n="pr"/></r></p></e>	
+	<e><p><l>all<s n="prn"/><s n="FD"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>ᱡᱷᱚᱛᱚ<s n="prn"/><s n="pers"/><s n="p3"/><s 		n="mf"/><s n="pl"/></r></p></e>
+-->
+
+<!-- SECTION: Abbreviation -->
+
+<e><p><l>Ac<s n="abbr"/></l>  <r>ᱮᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>A.D.<s n="abbr"/></l>  <r>ᱮ.ᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>abbr.<s n="abbr"/></l>  <r>ᱮᱵᱤᱵᱤᱟᱨ.<s n="abbr"/></r></p></e>
+<e><p><l>Ag<s n="abbr"/></l>  <r>ᱮᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Al<s n="abbr"/></l>  <r>ᱮᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>Am<s n="abbr"/></l>  <r>ᱮᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>amu<s n="abbr"/></l>  <r>ᱮᱮᱢᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>Ap.<s n="abbr"/></l>  <r>ᱮᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>approx.<s n="abbr"/></l>  <r>ᱮᱯᱤᱯᱤᱟᱨᱳᱮᱠᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>Apr.<s n="abbr"/></l>  <r>ᱮᱯᱤᱟᱨ.<s n="abbr"/></r></p></e>
+<e><p><l>Apt.<s n="abbr"/></l>  <r>ᱮᱯᱤᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Appt.<s n="abbr"/></l>  <r>ᱮᱯᱤᱯᱤᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Ar<s n="abbr"/></l>  <r>ᱮᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>As<s n="abbr"/></l>  <r>ᱮᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>At<s n="abbr"/></l>  <r>ᱮᱴᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Au<s n="abbr"/></l>  <r>ᱮᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>Aug.<s n="abbr"/></l>  <r>ᱮᱭᱩᱡᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Ave.<s n="abbr"/></l>  <r>ᱮᱵᱷᱤᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>B<s n="abbr"/></l>  <r>ᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ba<s n="abbr"/></l>  <r>ᱵᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>BA<s n="abbr"/></l>  <r>ᱵᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Be<s n="abbr"/></l>  <r>ᱵᱤᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Bh<s n="abbr"/></l>  <r>ᱵᱤᱮᱪᱷ<s n="abbr"/></r></p></e>
+<e><p><l>Bi<s n="abbr"/></l>  <r>ᱵᱤᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>Bk<s n="abbr"/></l>  <r>ᱵᱤᱠᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Blvd.<s n="abbr"/></l>  <r>ᱵᱤᱮᱞᱵᱷᱤᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Br<s n="abbr"/></l>  <r>ᱵᱤᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>C<s n="abbr"/></l>  <r>ᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ca<s n="abbr"/></l>  <r>ᱥᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Calif.<s n="abbr"/></l>  <r>ᱥᱤᱮᱮᱞᱟᱭᱮᱯᱷ.<s n="abbr"/></r></p></e>
+<e><p><l>Ce<s n="abbr"/></l>  <r>ᱥᱤᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Cd<s n="abbr"/></l>  <r>ᱥᱤᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Cf<s n="abbr"/></l>  <r>ᱥᱤᱮᱯᱷ<s n="abbr"/></r></p></e>
+<e><p><l>cf.<s n="abbr"/></l>  <r>ᱥᱤᱮᱯᱷ.<s n="abbr"/></r></p></e>
+<e><p><l>Cl<s n="abbr"/></l>  <r>ᱥᱤᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>chap.<s n="abbr"/></l>  <r>ᱥᱤᱮᱪᱷᱮᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Cm<s n="abbr"/></l>  <r>ᱥᱤᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>cm<s n="abbr"/></l>  <r>ᱥᱤᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>Co<s n="abbr"/></l>  <r>ᱥᱤᱳ<s n="abbr"/></r></p></e>
+<e><p><l>Co.<s n="abbr"/></l>  <r>ᱥᱤᱳ.<s n="abbr"/></r></p></e>
+<e><p><l>co.<s n="abbr"/></l>  <r>ᱥᱤᱳ.<s n="abbr"/></r></p></e>
+<e><p><l>Cr<s n="abbr"/></l>  <r>ᱥᱤᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>Cs<s n="abbr"/></l>  <r>ᱥᱤᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>Cu<s n="abbr"/></l>  <r>ᱥᱤᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>Cyn.<s n="abbr"/></l>  <r>ᱥᱤᱣᱟᱭᱮᱱ.<s n="abbr"/></r></p></e>
+<e><p><l>d.o.b.<s n="abbr"/></l>  <r>ᱰᱤ.ᱳ.ᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Db<s n="abbr"/></l>  <r>ᱰᱤᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Dec.<s n="abbr"/></l>  <r>ᱰᱤᱤᱥᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>dept.<s n="abbr"/></l>  <r>ᱰᱤᱤᱯᱤᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Dr.<s n="abbr"/></l>  <r>ᱰᱤᱟᱨ.<s n="abbr"/></r></p></e>
+<e><p><l>Dy<s n="abbr"/></l>  <r>ᱰᱤᱣᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>e. g.<s n="abbr"/></l>  <r>ᱤ. ᱡᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>e.g.<s n="abbr"/></l>  <r>ᱤ.ᱡᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>ed.<s n="abbr"/></l>  <r>ᱤᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>ep.<s n="abbr"/></l>  <r>ᱤᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Er<s n="abbr"/></l>  <r>ᱤᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>Es<s n="abbr"/></l>  <r>ᱤᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>esp.<s n="abbr"/></l>  <r>ᱤᱮᱥᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>est.<s n="abbr"/></l>  <r>ᱤᱮᱥᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>estab.<s n="abbr"/></l>  <r>ᱤᱮᱥᱴᱤᱮᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>eta<s n="abbr"/></l>  <r>ᱤᱴᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>etc.<s n="abbr"/></l>  <r>ᱤᱴᱤᱥᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Eu<s n="abbr"/></l>  <r>ᱤᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>Ex.<s n="abbr"/></l>  <r>ᱤᱮᱠᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>ex.<s n="abbr"/></l>  <r>ᱤᱮᱠᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>excl.<s n="abbr"/></l>  <r>ᱤᱮᱠᱥᱥᱤᱮᱞ.<s n="abbr"/></r></p></e>
+<e><p><l>F<s n="abbr"/></l>  <r>ᱮᱯᱷ<s n="abbr"/></r></p></e>
+<e><p><l>f.<s n="abbr"/></l>  <r>ᱮᱯᱷ.<s n="abbr"/></r></p></e>
+<e><p><l>Fe<s n="abbr"/></l>  <r>ᱮᱯᱷᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Feb.<s n="abbr"/></l>  <r>ᱮᱯᱷᱤᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>fem.<s n="abbr"/></l>  <r>ᱮᱯᱷᱤᱮᱢ.<s n="abbr"/></r></p></e>
+<e><p><l>Fm<s n="abbr"/></l>  <r>ᱮᱯᱷᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>Fr<s n="abbr"/></l>  <r>ᱮᱯᱷᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>ft<s n="abbr"/></l>  <r>ᱮᱯᱷᱴᱤ<s n="abbr"/></r></p></e>
+<e><p><l>g<s n="abbr"/></l>  <r>ᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ga<s n="abbr"/></l>  <r>ᱡᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>gal<s n="abbr"/></l>  <r>ᱡᱤᱮᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>Gd<s n="abbr"/></l>  <r>ᱡᱤᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ge<s n="abbr"/></l>  <r>ᱡᱤᱤ<s n="abbr"/></r></p></e>
+<e><p><l>H<s n="abbr"/></l>  <r>ᱮᱪᱷ<s n="abbr"/></r></p></e>
+<e><p><l>He<s n="abbr"/></l>  <r>ᱮᱪᱷᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Hf<s n="abbr"/></l>  <r>ᱮᱪᱷᱮᱯᱷ<s n="abbr"/></r></p></e>
+<e><p><l>Hg<s n="abbr"/></l>  <r>ᱮᱪᱷᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ho<s n="abbr"/></l>  <r>ᱮᱪᱷᱳ<s n="abbr"/></r></p></e>
+<e><p><l>hp<s n="abbr"/></l>  <r>ᱮᱪᱷᱯᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Hs<s n="abbr"/></l>  <r>ᱮᱪᱷᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>I<s n="abbr"/></l>  <r>ᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>i.e.<s n="abbr"/></l>  <r>ᱟᱭ.ᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>In<s n="abbr"/></l>  <r>ᱟᱭᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>incl.<s n="abbr"/></l>  <r>ᱟᱭᱮᱱᱥᱤᱮᱞ.<s n="abbr"/></r></p></e>
+<e><p><l>Ir<s n="abbr"/></l>  <r>ᱟᱭᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>RL<s n="abbr"/></l>  <r>ᱟᱨᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>Jan.<s n="abbr"/></l>  <r>ᱡᱮᱮᱮᱱ.<s n="abbr"/></r></p></e>
+<e><p><l>JD<s n="abbr"/></l>  <r>ᱡᱮᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Jun.<s n="abbr"/></l>  <r>ᱡᱮᱭᱩᱮᱱ.<s n="abbr"/></r></p></e>
+<e><p><l>K<s n="abbr"/></l>  <r>ᱠᱮ<s n="abbr"/></r></p></e>
+<e><p><l>kg<s n="abbr"/></l>  <r>ᱠᱮᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>kJ<s n="abbr"/></l>  <r>ᱠᱮᱡᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Kr<s n="abbr"/></l>  <r>ᱠᱮᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>Lat.<s n="abbr"/></l>  <r>ᱮᱞᱮᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>lb<s n="abbr"/></l>  <r>ᱮᱞᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>lb.<s n="abbr"/></l>  <r>ᱮᱞᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>La<s n="abbr"/></l>  <r>ᱮᱞᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Li<s n="abbr"/></l>  <r>ᱮᱞᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>Ln.<s n="abbr"/></l>  <r>ᱮᱞᱮᱱ.<s n="abbr"/></r></p></e>
+<e><p><l>Lr<s n="abbr"/></l>  <r>ᱮᱞᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>Ltd.<s n="abbr"/></l>  <r>ᱮᱞᱴᱤᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Lu<s n="abbr"/></l>  <r>ᱮᱞᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>P<s n="abbr"/></l>  <r>ᱯᱤ<s n="abbr"/></r></p></e>
+<e><p><l>m<s n="abbr"/></l>  <r>ᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>M<s n="abbr"/></l>  <r>ᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>M.A.<s n="abbr"/></l>  <r>ᱮᱢ.ᱮ.<s n="abbr"/></r></p></e>
+<e><p><l>M.D.<s n="abbr"/></l>  <r>ᱮᱢ.ᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>masc.<s n="abbr"/></l>  <r>ᱮᱢᱮᱮᱥᱥᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Md<s n="abbr"/></l>  <r>ᱮᱢᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Mg<s n="abbr"/></l>  <r>ᱮᱢᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>mg<s n="abbr"/></l>  <r>ᱮᱢᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>mill.<s n="abbr"/></l>  <r>ᱮᱢᱟᱭᱮᱞᱮᱞ.<s n="abbr"/></r></p></e>
+<e><p><l>min.<s n="abbr"/></l>  <r>ᱮᱢᱟᱭᱮᱱ.<s n="abbr"/></r></p></e>
+<e><p><l>misc.<s n="abbr"/></l>  <r>ᱮᱢᱟᱭᱮᱥᱥᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>ml<s n="abbr"/></l>  <r>ᱮᱢᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>Mn<s n="abbr"/></l>  <r>ᱮᱢᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>Mo<s n="abbr"/></l>  <r>ᱮᱢᱳ<s n="abbr"/></r></p></e>
+<e><p><l>mol<s n="abbr"/></l>  <r>ᱮᱢᱳᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>msg<s n="abbr"/></l>  <r>ᱮᱢᱮᱥᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>N<s n="abbr"/></l>  <r>ᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>N/A<s n="abbr"/></l>  <r>ᱮᱱ/ᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Na<s n="abbr"/></l>  <r>ᱮᱱᱮ<s n="abbr"/></r></p></e>
+<e><p><l>NB.<s n="abbr"/></l>  <r>ᱮᱱᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Nb<s n="abbr"/></l>  <r>ᱮᱱᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Nd<s n="abbr"/></l>  <r>ᱮᱱᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ne<s n="abbr"/></l>  <r>ᱮᱱᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Ni<s n="abbr"/></l>  <r>ᱮᱱᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>nm<s n="abbr"/></l>  <r>ᱮᱱᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>No<s n="abbr"/></l>  <r>ᱮᱱᱳ<s n="abbr"/></r></p></e>
+<e><p><l>no.<s n="abbr"/></l>  <r>ᱮᱱᱳ.<s n="abbr"/></r></p></e>
+<e><p><l>Nov.<s n="abbr"/></l>  <r>ᱮᱱᱳᱵᱷᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Np<s n="abbr"/></l>  <r>ᱮᱱᱯᱤ<s n="abbr"/></r></p></e>
+<e><p><l>O<s n="abbr"/></l>  <r>ᱳ<s n="abbr"/></r></p></e>
+<e><p><l>ob.<s n="abbr"/></l>  <r>ᱳᱵᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Oct.<s n="abbr"/></l>  <r>ᱳᱥᱤᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Os<s n="abbr"/></l>  <r>ᱳᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>ozs.<s n="abbr"/></l>  <r>ᱳᱡᱮᱰᱮᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>P<s n="abbr"/></l>  <r>ᱯᱤ<s n="abbr"/></r></p></e>
+<e><p><l>p.<s n="abbr"/></l>  <r>ᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>P.S.<s n="abbr"/></l>  <r>ᱯᱤ.ᱮᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>Pa<s n="abbr"/></l>  <r>ᱯᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Pb<s n="abbr"/></l>  <r>ᱯᱤᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Pd<s n="abbr"/></l>  <r>ᱯᱤᱰᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Pm<s n="abbr"/></l>  <r>ᱯᱤᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>Po<s n="abbr"/></l>  <r>ᱯᱤᱳ<s n="abbr"/></r></p></e>
+<e><p><l>Pr<s n="abbr"/></l>  <r>ᱯᱤᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>Pt<s n="abbr"/></l>  <r>ᱯᱤᱴᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Pu<s n="abbr"/></l>  <r>ᱯᱤᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>Ra<s n="abbr"/></l>  <r>ᱟᱨᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Rb<s n="abbr"/></l>  <r>ᱟᱨᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Rd.<s n="abbr"/></l>  <r>ᱟᱨᱰᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Re<s n="abbr"/></l>  <r>ᱟᱨᱤ<s n="abbr"/></r></p></e>
+<e><p><l>ref.<s n="abbr"/></l>  <r>ᱟᱨᱤᱮᱯᱷ.<s n="abbr"/></r></p></e>
+<e><p><l>resp.<s n="abbr"/></l>  <r>ᱟᱨᱤᱮᱥᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Rev.<s n="abbr"/></l>  <r>ᱟᱨᱤᱵᱷᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Rf<s n="abbr"/></l>  <r>ᱟᱨᱮᱯᱷ<s n="abbr"/></r></p></e>
+<e><p><l>Rh<s n="abbr"/></l>  <r>ᱟᱨᱮᱪᱷ<s n="abbr"/></r></p></e>
+<e><p><l>Rn<s n="abbr"/></l>  <r>ᱟᱨᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>Ru<s n="abbr"/></l>  <r>ᱟᱨᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>S<s n="abbr"/></l>  <r>ᱮᱥ<s n="abbr"/></r></p></e>
+<e><p><l>Sb<s n="abbr"/></l>  <r>ᱮᱥᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Sc<s n="abbr"/></l>  <r>ᱮᱥᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Se<s n="abbr"/></l>  <r>ᱮᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Sep.<s n="abbr"/></l>  <r>ᱮᱥᱤᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Sept.<s n="abbr"/></l>  <r>ᱮᱥᱤᱯᱤᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Sg<s n="abbr"/></l>  <r>ᱮᱥᱡᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Si<s n="abbr"/></l>  <r>ᱮᱥᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>SI<s n="abbr"/></l>  <r>ᱮᱥᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>Sm<s n="abbr"/></l>  <r>ᱮᱥᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>Sn<s n="abbr"/></l>  <r>ᱮᱥᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>sq.<s n="abbr"/></l>  <r>ᱮᱥᱠᱭᱩ.<s n="abbr"/></r></p></e>
+<e><p><l>sqrt<s n="abbr"/></l>  <r>ᱮᱥᱠᱭᱩᱟᱨᱴᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Sr<s n="abbr"/></l>  <r>ᱮᱥᱟᱨ<s n="abbr"/></r></p></e>
+<e><p><l>St.<s n="abbr"/></l>  <r>ᱮᱥᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Tb<s n="abbr"/></l>  <r>ᱴᱤᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>temp.<s n="abbr"/></l>  <r>ᱴᱤᱤᱮᱢᱯᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Tm<s n="abbr"/></l>  <r>ᱴᱤᱮᱢ<s n="abbr"/></r></p></e>
+<e><p><l>Ta<s n="abbr"/></l>  <r>ᱴᱤᱮ<s n="abbr"/></r></p></e>
+<e><p><l>Tc<s n="abbr"/></l>  <r>ᱴᱤᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Th<s n="abbr"/></l>  <r>ᱴᱤᱮᱪᱷ<s n="abbr"/></r></p></e>
+<e><p><l>thous.<s n="abbr"/></l>  <r>ᱴᱤᱮᱪᱷᱳᱭᱩᱮᱥ.<s n="abbr"/></r></p></e>
+<e><p><l>Ti<s n="abbr"/></l>  <r>ᱴᱤᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>Tl<s n="abbr"/></l>  <r>ᱴᱤᱮᱞ<s n="abbr"/></r></p></e>
+<e><p><l>U<s n="abbr"/></l>  <r>ᱭᱩ<s n="abbr"/></r></p></e>
+<e><p><l>V<s n="abbr"/></l>  <r>ᱵᱷᱤ<s n="abbr"/></r></p></e>
+<e><p><l>W<s n="abbr"/></l>  <r>ᱰᱟᱹᱵᱞᱩ<s n="abbr"/></r></p></e>
+<e><p><l>w.r.t.<s n="abbr"/></l>  <r>ᱰᱟᱹᱵᱞᱩ.ᱟᱨ.ᱴᱤ.<s n="abbr"/></r></p></e>
+<e><p><l>Xe<s n="abbr"/></l>  <r>ᱮᱠᱥᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Y<s n="abbr"/></l>  <r>ᱣᱟᱭ<s n="abbr"/></r></p></e>
+<e><p><l>Yb<s n="abbr"/></l>  <r>ᱣᱟᱭᱵᱤ<s n="abbr"/></r></p></e>
+<e><p><l>Zn<s n="abbr"/></l>  <r>ᱡᱮᱰᱮᱱ<s n="abbr"/></r></p></e>
+<e><p><l>Zr<s n="abbr"/></l>  <r>ᱡᱮᱰᱟᱨ<s n="abbr"/></r></p></e>
+
+<!-- SECTION: Uncategorised Words -->
+	 
 <e>       <p><l>house<s n="n"/></l>                    <r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
 <e>       <p><l>goat<s n="n"/></l>                     <r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
 <e>       <p><l>cow<s n="n"/></l>                      <r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
