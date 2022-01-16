@@ -3,28 +3,18 @@
 
   <!-- eng → sat -->
 
-  <mode name="eng-sat" install="yes" gendebug="yes">
+  <mode name="eng-sat" install="yes"> <!--For debugging, the HR mode-->
     <pipeline>
-
       <program name="lt-proc -w">
         <file name="eng-sat.automorf.bin"/>
       </program>
-
-
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1 -n">
         <file name="eng-sat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -x -g $2">
-        <file name="eng-sat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="eng-sat.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
-        <file name="eng-sat.autolex.bin"/>
-      </program>
-
       <program name="apertium-transfer -b">
         <file name="apertium-eng-sat.eng-sat.t1x"/>
         <file name="eng-sat.t1x.bin"/>
@@ -37,33 +27,193 @@
         <file name="apertium-eng-sat.eng-sat.t3x"/>
         <file name="eng-sat.t3x.bin"/>
       </program>
-
       <program name="lt-proc $1">
         <file name="eng-sat.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="eng-sat.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <!-- sat → eng -->
-
-  <mode name="sat-eng" install="yes" gendebug="yes">
+  <mode name="eng-sat-morph" install="yes">
     <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
+  <mode name="eng-sat-disam" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-sat-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="eng-sat.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="eng-sat-biltrans" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-sat.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-sat-chunker" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-sat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
+        <file name="apertium-eng-sat.eng-sat.t1x"/>
+        <file name="eng-sat.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-sat-interchunk" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-sat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.eng-sat.t1x"/>
+        <file name="eng-sat.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-sat.eng-sat.t2x"/>
+        <file name="eng-sat.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-sat-postchunk" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-sat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="eng-sat.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-sat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.eng-sat.t1x"/>
+        <file name="eng-sat.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-sat.eng-sat.t2x"/>
+        <file name="eng-sat.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-sat.eng-sat.t3x"/>
+        <file name="eng-sat.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+   <!-- =*= Santali to English =*= -->
+
+
+  <mode name="sat-eng-morph" install="yes">
+    <pipeline>
       <program name="lt-proc -w">
         <file name="sat-eng.automorf.bin"/>
       </program>
+    </pipeline>
+  </mode>
 
+  <mode name="sat-eng-disam" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
-      <program name="cg-proc -w">
+  <mode name="sat-eng-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <!--<program name="cg-proc -w">-->
+      <program name="cg-proc">
         <file name="sat-eng.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sat-eng.prob"/>
-      </program>
+      </program> 
+    </pipeline>
+  </mode>
 
+  <mode name="sat-eng-biltrans" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="sat-eng-lextor" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sat-eng.autobil.bin"/>
@@ -71,7 +221,105 @@
       <program name="lrx-proc -m">
         <file name="sat-eng.autolex.bin"/>
       </program>
+    </pipeline>
+  </mode>
 
+
+  <mode name="sat-eng-chunker" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.sat-eng.t1x"/>
+        <file name="sat-eng.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="sat-eng-interchunk" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.sat-eng.t1x"/>
+        <file name="sat-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-sat.sat-eng.t2x"/>
+        <file name="sat-eng.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="sat-eng-postchunk" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.sat-eng.t1x"/>
+        <file name="sat-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-sat.sat-eng.t2x"/>
+        <file name="sat-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-sat.sat-eng.t3x"/>
+        <file name="sat-eng.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="sat-eng-debug" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sat-eng.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-eng-sat.sat-eng.t1x"/>
         <file name="sat-eng.t1x.bin"/>
@@ -85,6 +333,39 @@
         <file name="sat-eng.t3x.bin"/>
       </program>
 
+      <program name="lt-proc -d">
+        <file name="sat-eng.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="sat-eng" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="sat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sat-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-sat.sat-eng.t1x"/>
+        <file name="sat-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-sat.sat-eng.t2x"/>
+        <file name="sat-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-sat.sat-eng.t3x"/>
+        <file name="sat-eng.t3x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="sat-eng.autogen.bin"/>
       </program>

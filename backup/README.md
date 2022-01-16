@@ -1,0 +1,1 @@
+This backup folder is not a part of official Apertium files, you can delete them. This folder is the backup of old dictionary. Actual name of the file is: "apertium-eng-sat.eng-sat.dix" which is replaced by date. 
