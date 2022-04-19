@@ -2939,7 +2939,7 @@
 <e>       <p><l>Orange<s n="n"/></l>                   <r>ᱜᱮᱨᱩᱟ<s n="n"/></r></p></e>
 <e>       <p><l>Brinjal<s n="n"/></l>                  <r>ᱵᱮᱱᱜᱩᱱᱤ<s n="n"/></r></p></e>
 
-<!-- SECTION: Conjunctions -->
+<!-- SECTION: Conjunctions  -->
 
 <e>       <p><l>or<s n="cnjcoo"/></l>                  <r>ᱟᱨᱵᱟᱝᱠᱷᱟᱱ<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>and<s n="cnjcoo"/></l>                 <r>ᱟᱨ<s n="cnjcoo"/></r></p></e>
@@ -3364,7 +3364,9 @@
 <e>       <p><l>Zr<s n="abbr"/></l>                    <r>ᱡᱮᱰᱟᱨ<s n="abbr"/></r></p></e>
 
 <!-- SECTION: Uncategorised Words -->
-	 
+<e>       <p><l>Hindi<s n="n"/></l>                    <r>ᱦᱤᱱᱫᱤ<s n="n"/></r></p></e>	
+<e>       <p><l>Santali<s n="n"/></l>                    <r>ᱥᱟᱱᱛᱟᱲᱤ<s n="n"/></r></p></e>	 
+<e>       <p><l>rupee<s n="n"/></l>                    <r>ᱯᱩᱭᱥᱟᱹ<s n="n"/></r></p></e>
 <e>       <p><l>house<s n="n"/></l>                    <r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
 <e>       <p><l>goat<s n="n"/></l>                     <r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
 <e>       <p><l>cow<s n="n"/></l>                      <r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
