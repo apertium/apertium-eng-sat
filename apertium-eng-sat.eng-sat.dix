@@ -2915,18 +2915,30 @@
 <e>       <p><l>Thursday<s n="n"/></l>                 <r>ᱥᱟ.ᱨᱫᱤ<s n="n"/></r></p></e>
 <e>       <p><l>Friday<s n="n"/></l>                   <r>ᱡᱟ.ᱨᱩᱵ<s n="n"/></r></p></e>
 <e>       <p><l>Saturday<s n="n"/></l>                 <r>ᱧᱩᱸᱦᱩᱢ<s n="n"/></r></p></e>
-<e>       <p><l>January<s n="n"/></l>                  <r>ᱡᱟᱱᱩᱟᱨᱤ<s n="n"/></r></p></e>
-<e>       <p><l>February<s n="n"/></l>                 <r>ᱯᱦᱮᱵᱨᱩᱟᱨᱭ<s n="n"/></r></p></e>
-<e>       <p><l>March<s n="n"/></l>                    <r>ᱢᱟᱨᱪ<s n="n"/></r></p></e>
-<e>       <p><l>April<s n="n"/></l>                    <r>ᱮᱯᱨᱤᱞ<s n="n"/></r></p></e>
-<e>       <p><l>May<s n="n"/></l>                      <r>ᱢᱮᱭ<s n="n"/></r></p></e>
-<e>       <p><l>June<s n="n"/></l>                     <r>ᱡᱩᱱ<s n="n"/></r></p></e>
-<e>       <p><l>July<s n="n"/></l>                     <r>ᱡᱩᱞᱭ<s n="n"/></r></p></e>
-<e>       <p><l>August<s n="n"/></l>                   <r>ᱟᱜᱚᱥᱴ<s n="n"/></r></p></e>
-<e>       <p><l>September<s n="n"/></l>                <r>ᱥᱮᱯᱴᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
-<e>       <p><l>October<s n="n"/></l>                  <r>ᱚᱠᱴᱚᱵᱚᱨ<s n="n"/></r></p></e>
-<e>       <p><l>November<s n="n"/></l>                 <r>ᱱᱚᱵᱷᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
-<e>       <p><l>December<s n="n"/></l>                 <r>ᱰᱤᱥᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+<e>       <p><l>January<s n="n"/></l>                  <r>ᱢᱟᱜᱽ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>January<s n="n"/></l>                  <r>ᱡᱟᱱᱩᱟᱨᱤ<s n="n"/></r></p></e>
+<e>       <p><l>February<s n="n"/></l>                 <r>ᱯᱷᱟᱹᱜᱩᱱ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>February<s n="n"/></l>                 <r>ᱯᱦᱮᱵᱨᱩᱟᱨᱭ<s n="n"/></r></p></e>
+<e>       <p><l>March<s n="n"/></l>                    <r>ᱪᱟᱹᱛ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>March<s n="n"/></l>                    <r>ᱢᱟᱨᱪ<s n="n"/></r></p></e>
+<e>       <p><l>April<s n="n"/></l>                    <r>ᱵᱟᱹᱭᱥᱟᱹᱠ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>April<s n="n"/></l>                    <r>ᱮᱯᱨᱤᱞ<s n="n"/></r></p></e>
+<e>       <p><l>May<s n="n"/></l>                      <r>ᱡᱷᱮᱸᱴ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>May<s n="n"/></l>                      <r>ᱢᱮᱭ<s n="n"/></r></p></e>
+<e>       <p><l>June<s n="n"/></l>                     <r>ᱟᱥᱟᱲ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>June<s n="n"/></l>                     <r>ᱡᱩᱱ<s n="n"/></r></p></e>
+<e>       <p><l>July<s n="n"/></l>                     <r>ᱥᱟᱱ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>July<s n="n"/></l>                     <r>ᱡᱩᱞᱭ<s n="n"/></r></p></e>
+<e>       <p><l>August<s n="n"/></l>                   <r>ᱵᱷᱟᱫᱚᱨ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>August<s n="n"/></l>                   <r>ᱟᱜᱚᱥᱴ<s n="n"/></r></p></e>
+<e>       <p><l>September<s n="n"/></l>                <r>ᱫᱟᱥᱟᱸᱭ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>September<s n="n"/></l>                <r>ᱥᱮᱯᱴᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+<e>       <p><l>October<s n="n"/></l>                  <r>ᱥᱚᱦᱨᱟᱭ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>October<s n="n"/></l>                  <r>ᱚᱠᱴᱚᱵᱚᱨ<s n="n"/></r></p></e>
+<e>       <p><l>November<s n="n"/></l>                 <r>ᱟᱜᱷᱟᱲ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>November<s n="n"/></l>                 <r>ᱱᱚᱵᱷᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
+<e>       <p><l>December<s n="n"/></l>                 <r>ᱯᱩᱥ<s n="n"/></r></p></e>
+<e r="RL">       <p><l>December<s n="n"/></l>                 <r>ᱰᱤᱥᱮᱢᱵᱚᱨ<s n="n"/></r></p></e>
 
 <!-- Proper Nouns Colour-->
 <e>       <p><l>Black<s n="n"/></l>                    <r>ᱦᱮᱸᱫᱮ<s n="n"/></r></p></e>
@@ -3075,16 +3087,16 @@
 
 <!-- Ordinals -->
 
-<e>       <p><l>first<s n="num"/><s n="ord"/></l>      <r>ᱮᱛᱦᱚᱵ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>second<s n="num"/><s n="ord"/></l>     <r>ᱫᱚᱥᱟᱨ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>third<s n="num"/><s n="ord"/></l>      <r>ᱛᱮᱥᱟᱨ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>fourth<s n="num"/><s n="ord"/></l>     <r>ᱯᱩᱱᱟᱹᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>fifth<s n="num"/><s n="ord"/></l>      <r>ᱢᱚᱬᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>sixth<s n="num"/><s n="ord"/></l>      <r>ᱛᱩᱨᱩᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>seventh<s n="num"/><s n="ord"/></l>    <r>ᱮᱭᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>eighth<s n="num"/><s n="ord"/></l>     <r>ᱤᱨᱟᱹᱞᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>ninth<s n="num"/><s n="ord"/></l>      <r>ᱟᱨᱮᱭᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
-<e>       <p><l>tenth<s n="num"/><s n="ord"/></l>      <r>ᱜᱮᱞᱟᱱᱟᱜ<s n="num"/><s n="ord"/></r></p></e>
+<e>       <p><l>first<s n="adj"/></l>      <r>ᱮᱛᱦᱚᱵ<s n="adj"/></r></p></e>
+<e>       <p><l>second<s n="adj"/></l>     <r>ᱫᱚᱥᱟᱨ<s n="adj"/></r></p></e>
+<e>       <p><l>third<s n="adj"/></l>      <r>ᱛᱮᱥᱟᱨ<s n="adj"/></r></p></e>
+<e>       <p><l>fourth<s n="adj"/></l>     <r>ᱯᱩᱱᱟᱹᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>fifth<s n="adj"/></l>      <r>ᱢᱚᱬᱮᱭᱟᱱᱟᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>sixth<s n="adj"/></l>      <r>ᱛᱩᱨᱩᱭᱟᱱᱟᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>seventh<s n="adj"/></l>    <r>ᱮᱭᱮᱭᱟᱱᱟᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>eighth<s n="adj"/></l>     <r>ᱤᱨᱟᱹᱞᱟᱱᱟᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>ninth<s n="adj"/></l>      <r>ᱟᱨᱮᱭᱟᱱᱟᱜ<s n="adj"/></r></p></e>
+<e>       <p><l>tenth<s n="adj"/></l>      <r>ᱜᱮᱞᱟᱱᱟᱜ<s n="adj"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
 
@@ -3104,7 +3116,7 @@
 <e>       <p><l>on<s n="pr"/></l>                      <r>ᱪᱮᱛᱟᱱ<s n="post"/></r></p></e>
 <e r="RL"><p><l>on<s n="pr"/></l>                      <r>ᱨᱮ<s n="post"/></r></p></e>
 <e>       <p><l>from<s n="pr"/></l>                    <r>ᱠᱷᱚᱱ<s n="post"/></r></p></e>
-<e>       <p><l>with<s n="pr"/></l>                    <r>ᱥᱟᱣ<s n="post"/></r></p></e> <!-- with love , with care-->
+<e>       <p><l>with<s n="pr"/></l>                    <r>ᱥᱟᱶ<s n="post"/></r></p></e> <!-- with love , with care-->
 <e>       <p><l>towards<s n="pr"/></l>                 <r>ᱥᱮᱫ<s n="pr"/></r></p></e>
 <e>       <p><l>about<s n="pr"/></l>                   <r>ᱨᱮᱭᱟᱜ<b/>ᱵᱟᱵᱚᱛ<b/>ᱨᱮ<s n="post"/></r></p></e>
 <e>       <p><l>because<b/>of<s n="pr"/></l>           <r>ᱞᱟᱹᱜᱤᱫ<b/>ᱛᱮ<s n="post"/></r></p></e>
@@ -3364,16 +3376,21 @@
 <e>       <p><l>Zr<s n="abbr"/></l>                    <r>ᱡᱮᱰᱟᱨ<s n="abbr"/></r></p></e>
 
 <!-- SECTION: Uncategorised Words -->
-<e>       <p><l>Hindi<s n="n"/></l>                    <r>ᱦᱤᱱᱫᱤ<s n="n"/></r></p></e>	
-<e>       <p><l>Santali<s n="n"/></l>                    <r>ᱥᱟᱱᱛᱟᱲᱤ<s n="n"/></r></p></e>	 
-<e>       <p><l>rupee<s n="n"/></l>                    <r>ᱯᱩᱭᱥᱟᱹ<s n="n"/></r></p></e>
-<e>       <p><l>house<s n="n"/></l>                    <r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
-<e>       <p><l>goat<s n="n"/></l>                     <r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
-<e>       <p><l>cow<s n="n"/></l>                      <r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
+
 <e>       <p><l>blue<s n="adj"/></l>                   <r>ᱞᱤᱞ<s n="adj"/></r></p></e>
-<e>       <p><l>this<s n="det"/></l>                   <r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>
-<e>       <p><l>flesh<s n="adj"/></l>                  <r>ᱡᱤᱞ<s n="adj"/></r></p></e>
+<e>       <p><l>cow<s n="n"/></l>                      <r>ᱰᱟᱹᱝᱜᱽᱨᱤ<s n="n"/></r></p></e>
 <e>       <p><l>eat<s n="vblex"/></l>                  <r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
+<e>       <p><l>flesh<s n="adj"/></l>                  <r>ᱡᱤᱞ<s n="adj"/></r></p></e>
+<e>       <p><l>goat<s n="n"/></l>                     <r>ᱢᱮᱨᱚᱢ<s n="n"/></r></p></e>
+<e>       <p><l>Hindi<s n="n"/></l>                    <r>ᱦᱤᱱᱫᱤ<s n="n"/></r></p></e>
+<e>       <p><l>house<s n="n"/></l>                    <r>ᱚᱲᱟᱜ<s n="n"/></r></p></e>
+<e>       <p><l>hundred<s n="n"/></l>           <r>ᱥᱟᱭ<s n="n"/></r></p></e>	
+<e>       <p><l>rupee<s n="n"/></l>                    <r>ᱯᱩᱭᱥᱟᱹ<s n="n"/></r></p></e>
+<e>       <p><l>Santali<s n="n"/></l>                    <r>ᱥᱟᱱᱛᱟᱲᱤ<s n="n"/></r></p></e>
+<e>       <p><l>this<s n="det"/></l>                   <r>ᱱᱚᱶᱟ<s n="det"/></r></p></e>
+<e>       <p><l>Wikipedia<s n="np"/></l>                  <r>ᱣᱤᱠᱤᱯᱤᱰᱤᱭᱟ<s n="np"/></r></p></e>
+<e>       <p><l>Wikimedia<s n="np"/></l>                  <r>ᱣᱤᱠᱤᱢᱤᱰᱤᱭᱟ<s n="np"/></r></p></e>
+
 <e>       <p><l>.<s n="sent"/></l>                     <r>।<s n="sent"/></r></p></e>
   </section>
   <section id="regexp" type="standard">
