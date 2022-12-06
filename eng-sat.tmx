@@ -34,6 +34,11 @@
 			</tuv>
 			<tuv xml:lang="sat">
 				<seg>ᱟᱢᱟᱜ ᱛᱤ ᱫᱚ ᱪᱚᱨᱚᱠ ᱜᱮᱭᱟ ᱾</seg>
+
+				<seg>Hello World</seg>
+			</tuv>
+			<tuv xml:lang="sat">
+				<seg>ᱡᱚᱦᱟᱨ ᱫᱤᱥᱚᱢ</seg>
 			</tuv>
 		</tu>
 	</body>
