@@ -30,10 +30,10 @@
 		</tu>
 		<tu>
 			<tuv xml:lang="eng">
-				<seg>your hand is beautiful.</seg>
+				<seg>your hand is beautiful .</seg>
 			</tuv>
 			<tuv xml:lang="sat">
-				<seg>ᱟᱢᱟᱜ ᱛᱤ ᱫᱚ ᱪᱚᱨᱚᱠ ᱜᱮᱭᱟ ᱾</seg>
+				<seg>ᱟᱢᱟᱜ ᱛᱤ ᱫᱚ ᱪᱚᱨᱚᱠ ᱜᱮᱭᱟ  ᱾</seg>
 
 				<seg>Hello World</seg>
 			</tuv>
